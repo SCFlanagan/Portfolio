@@ -1,0 +1,196 @@
+body {
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    letter-spacing: 2px;
+    background: #f9f8f9;
+}
+
+.head {
+    color: #ffe575;
+    height: 12vh;
+    font-size: 10vh;
+    margin-bottom: 6vh;
+    margin-top: 2vh;
+    text-shadow: 2px 2px #55614a;
+}
+.mid {
+    color: #ffe575;
+    height: 6vh;
+    font-size: 5vh;
+    text-shadow: .8px .8px #55614a;
+}
+.reg{
+    color: #55614a;
+    font-size: 2vh;
+}
+
+.line {
+    border-bottom: 3px solid #ffe575;
+}
+
+.jumbotron {
+    height: 100vh;
+    margin: 0 0;
+}
+
+.jumbo {
+    height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    background-image: url('https://static.pexels.com/photos/5275/road-curve-bend-rainy.jpg');
+    background-size: cover;
+    z-index: 0;
+    text-shadow: 1px 1px #55614a;
+}
+#header-head {
+    z-index: 1;
+    width: 26%;
+    color: #ffe575;
+    margin-top: 42vh;
+    margin-left: 37%;
+    margin-right: 37%;
+    padding-bottom: 1.5vh;
+    border-bottom: 2px solid #ffe575;
+    font-size: 6vh;
+    letter-spacing: 3px;
+}
+#header-text {
+    font-size: 4vh;
+    color: #ffe575;
+}
+
+.bio-text {
+    margin-top: 5vh;
+}
+
+.bios {
+    margin-top: 30vh;
+}
+
+#bio-pic {
+     height: 70vh;
+     border: 2px solid black;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 15px;
+     background-image: url('./horsebio.jpg');
+     background-size: cover;
+     background-position: center;
+}
+
+.inline-block {
+    margin: 1vh 1%;
+    display: inline-block;
+}
+
+.title {
+    height: 27vh;
+    border-top: 3px solid #ffe575;
+}
+
+.project-title {
+    margin-top: 4vh;
+}
+
+.projects {
+    width: 70%;
+    margin-bottom: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+    color: #5fbec0;
+    
+}
+
+.screenshots {
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 3%;
+}
+
+#wiw-pic1 {
+    background-image: url('./wiwtitle.jpg')
+}
+
+#wiw-pic2 {
+    background-image: url('./wiwgame.jpg')
+}
+
+#y-pic1 {
+    background-image: url('./wiwtitle.jpg')
+}
+
+#y-pic2 {
+    background-image: url('./wiwgame.jpg')
+}
+
+#nyu-pic1 {
+    background-image: url('./nyuboard.jpg')
+}
+
+#nyu-pic2 {
+    background-image: url('./nyubuy.jpg')
+}
+
+.project-head {
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+.site {
+    color: red;
+}
+
+.code {
+    color: orange;
+}
+
+.link {
+    font-size: 3vh;
+}
+
+.edu {
+    margin: 10vh auto;
+    margin-top: 10vh;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+.box-text {
+    margin-top: 4vh;
+}
+
+.box {
+    
+    height: 33vh;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    width: 80%;
+    height: 25vh;
+    margin: 0 auto;
+}
+.blocked {
+    width: 80%;
+    margin: 1vh auto;
+}
+
+.bold {
+    font-weight: bold;
+}
