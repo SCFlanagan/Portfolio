@@ -88,7 +88,6 @@ body {
 
 .title {
     height: 27vh;
-    border-top: 3px solid #ffe575;
 }
 
 .project-title {
@@ -100,7 +99,7 @@ body {
     margin-bottom: 12vh;
     margin-left: auto;
     margin-right: auto;
-    height: 60vh;
+    height: 75vh;
     position: relative;
     overflow: hidden;
     color: #5fbec0;
@@ -108,7 +107,7 @@ body {
 }
 
 .screenshots {
-    height: 30vh;
+    height: 35vh;
     background-size: cover;
     background-position: center;
     border: 2px solid black;
@@ -176,7 +175,6 @@ body {
 }
 
 .box {
-    
     height: 33vh;
     width: 80%;
     margin: 0 auto;
@@ -193,4 +191,21 @@ body {
 
 .bold {
     font-weight: bold;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    border-radius: 0px;
+    width: 100%;
+    z-index: 4;
+    opacity: .8;
+}
+
+#footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #4c4c4c;
+    color: #f9f8f9;
+    border: 3px solid #4c4c4c;
 }

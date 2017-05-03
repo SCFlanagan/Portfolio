@@ -9,6 +9,7 @@ import HomePage from './components/HomePage'
 import BackgroundItem from './components/BackgroundItem'
 import Login from './components/Login'
 import WhoAmI from './components/WhoAmI'
+import AppContainer from './containers/AppContainer'
 
 const ExampleApp = connect(
   ({ auth }) => ({ user: auth })
@@ -17,7 +18,7 @@ const ExampleApp = connect(
     <div>
       <nav>
         {user ? <WhoAmI/> : <Login/>}
-      </nav> 
+      </nav>
       {children}
     </div>
 )
@@ -25,7 +26,7 @@ const ExampleApp = connect(
 render (
   <Provider store={store}>
     <Router history={browserHistory}>
-      <Route path="/">
+      <Route path="/" component={AppContainer}>
         <IndexRedirect to="/home" />
         <Route path="/home" component={HomePage} />
         <Route path="/background" component={BackgroundItem} />
@@ -38,7 +39,7 @@ render (
 
 
 
-            
+
         {/*<Jumbotron className='jumbo' id='bio'>
             <h1 id='bio-head'>Bio</h1>
             <div id='bio-grid'>
@@ -133,7 +134,7 @@ render (
 // #bio {
 //     margin-bottom: 0;
 //     color: #55614a;
-//     background: #f9f8f9; 
+//     background: #f9f8f9;
 // }
 // #bio-head {
 //     height: 10vh;
@@ -165,8 +166,8 @@ render (
 
 // #tech {
 //     color: #55614a;
-//     background: #f9f8f9; 
-// }   
+//     background: #f9f8f9;
+// }
 // #project-head{
 //     color: #ffe575;
 //     text-shadow: 1px 1px #55614a;
@@ -212,13 +213,13 @@ render (
 //     font-size: 20vh;
 //     width: 50%;
 //     text-shadow: 1px 1px #f9f8f9;
-// } 
+// }
 // .my-container p {
 //     position: relative;
 //     z-index: 3;
 //     font-size: 2.5vh;
 //     width: 50%;
-// } 
+// }
 // .my-container a {
 //     color: #de6f70;
 //     font-size: 3vh;

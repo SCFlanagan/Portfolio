@@ -37,7 +37,7 @@ export default () => {
                     <p className='reg inline-block'>jQuery</p>
                     <p className='reg inline-block'>SASS/SCSS</p>
                     <p className='reg inline-block'>Firebase</p>
-                    <p className='reg inline-block'>• Socket.io</p>
+                    <p className='reg inline-block'>Websockets</p>
             </Col>
         </div>
 
@@ -65,8 +65,7 @@ export default () => {
                 </div>
 
                 <div className='projects'>
-                    <Col lg={6} md={6}>
-                        
+                    <Col lg={6} md={6}>        
                         <div id='nyu-pic1' className='screenshots'></div>
                         <div id='nyu-pic2' className='screenshots'></div>
                     </Col>
@@ -81,7 +80,7 @@ export default () => {
                     </Col>
                 </div>
 
-                <div className='projects'>
+                <div className='projects line'>
                     <Col lg={6} md={6}>
                         <h3 className='mid project-head'>Yahtzee</h3>
                         <p className='reg'>Solo Project</p>
@@ -97,7 +96,7 @@ export default () => {
                     </Col>
                 </div>
 
-                <div>
+                <div className='line jumbo'>
                     <h1 className='head'>Education</h1>
                     <BackgroundItem name='Fullstack Academy of Code' year='April 2017' details={['Immersive 3-month software development bootcamp', '50+ hours a week spent coding']} url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0T_AFQhvuRPIA822vOdMIg7hDJdYasB-gPIoANCr4J6P0JzJRqQlgTZV'/>
                     <BackgroundItem name='University of Massachusetts Amherst' year='March 2012' details={['B.S. Wildlife and Fisheries Conservation', 'French Minor']} url='https://cdn.evbuc.com/eventlogos/85574/wordmark1blkmaroon.jpg'/>
