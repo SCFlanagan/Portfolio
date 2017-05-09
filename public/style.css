@@ -11,7 +11,7 @@ body {
     font-size: 10vh;
     margin-bottom: 6vh;
     margin-top: 2vh;
-    text-shadow: 2px 2px #55614a;
+    text-shadow: 1px 1px #55614a;
 }
 .mid {
     color: #ffe575;
@@ -30,7 +30,7 @@ body {
 
 .jumbotron {
     height: 100vh;
-    margin: 0 0;
+    margin: 0px;
 }
 
 .jumbo {
@@ -82,7 +82,7 @@ body {
 }
 
 .inline-block {
-    margin: 1vh 1%;
+    margin: 1vh 5%;
     display: inline-block;
 }
 
@@ -110,9 +110,10 @@ body {
     height: 35vh;
     background-size: cover;
     background-position: center;
-    border: 2px solid black;
+    border: 1px solid black;
     width: 100%;
     margin-left: 3%;
+    margin-bottom: 2vh;
 }
 
 #wiw-pic1 {
@@ -140,7 +141,7 @@ body {
 }
 
 .project-head {
-    margin-top: 10vh;
+    margin-top: 6vh;
     margin-bottom: 8vh;
 }
 
@@ -204,8 +205,41 @@ body {
 
 #footer {
     width: 100%;
-    height: 20vh;
+    height: 45vh;
     background-color: #4c4c4c;
     color: #f9f8f9;
     border: 3px solid #4c4c4c;
+}
+
+.contact-logo {
+    height: 55px;
+    width: 55px;
+}
+
+.tech-cat {
+    margin-top: 10vh;
+}
+
+.pt {
+    font-size: 8vh;
+    color: #ffe575;
+    text-shadow: 1px 1px #55614a;
+}
+
+.foot-head {
+    font-size: 8vh;
+    margin-bottom: 4vh;
+}
+
+.footer-item {
+    margin-bottom: 10vh;
+    font-size: 2vh;
+}
+
+.created {
+    padding-top: 5vh;
+}
+
+.project-item {
+    margin-bottom: 5vh;
 }
