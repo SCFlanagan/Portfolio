@@ -2,7 +2,6 @@ import React from 'react';
 import { Jumbotron, Col, Button } from 'react-bootstrap';
 
 export default (props) => {
-  console.log('props: ', props)
   return (
       <div className='box'>
         <Col lg={4} md={4}>

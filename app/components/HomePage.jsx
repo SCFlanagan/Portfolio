@@ -57,7 +57,7 @@ export default () => {
                         <p className='reg project-item'>A game application designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.</p>
                         <p className='reg project-item'>Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap</p>
                         <p className='reg project-item'>Solo Project</p>
-                        <a className='site link' href='where-in-world.herokuapp.com' target="_blank">Play the Game</a>
+                        <a className='site link' href='https://where-in-world.herokuapp.com' target="_blank">Play the Game</a>
                         <span className='reg'> | </span>
                         <a className='code link' href='https://github.com/SCFlanagan/Where-in-the-World' target="_blank">View the Code</a>
                     </Col>
@@ -76,7 +76,7 @@ export default () => {
                         <h3 className='pt project-head'>Nyuyoku</h3>
                         <p className='reg project-item'>Try to build the biggest city with this group project that reimagined the card game Machi Koro as a web application. Play up to three friends over the internet with this real-time, multiplayer game.</p>
                         <p className='reg project-item'>Created with Node, Express, React, Redux, PostgreSQL, Sequelize, Firebase, HTML, SCSS, Bootstrap.</p>
-                        <a className='site link' href='nyuyoku.herokuapp.com' target="_blank">Play the Game</a>
+                        <a className='site link' href='http://nyuyoku.herokuapp.com' target="_blank">Play the Game</a>
                         <span className='reg'> | </span>
                         <a className='code link' href='https://github.com/nyuyoku' target="_blank">View Code</a>
                     </Col>
@@ -88,7 +88,7 @@ export default () => {
                         <p className='reg'>Solo Project</p>
                         <p className='reg'>Used Node/Express, React-Redux, HTML, CSS, Bootstrap</p>
                         <p className='reg'>Created an articial computer player to play against.</p>
-                        <a className='site link' href='where-in-world.herokuapp.com' target="_blank">Play the Game</a>
+                        <a className='site link' href='https://where-in-world.herokuapp.com' target="_blank">Play the Game</a>
                         <span className='reg'> | </span>
                         <a className='code link' href='https://github.com/SCFlanagan/one-player-yahtzee' target="_blank">View Code</a>
                     </Col>
