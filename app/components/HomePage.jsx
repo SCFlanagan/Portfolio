@@ -11,15 +11,29 @@ export default () => {
             <h3 id='header-text'>Software Engineer</h3>
         </Jumbotron>
         <div id="section-one" className='jumbo line bio'>
+            <div className='space-for-nav'></div>
             <h1 className='head'>About</h1>
-            <Col lg={4} md={4} >
-                <h1 className='mid'>Bio</h1>
-                <p className='bios'>Allez, venez, Milord. Vous vous asseoir a ma table. Il fait si froid dehors. Ici c'est conforortable. Laissez-vous faire, Milord. Et prennent vos aises. Vous peinneseur mon coeur et vos pieds sur une chaise. Regardez-moi, Milord. Vous avez un air d'amour.</p>
+            <Col className='blank-bio' lg={4} md={4}></Col>
+            <Col className='blank-bio' lg={4} md={4}>
+                <div id='bio-pic'></div>
+            </Col>
+            <Col className='blank-bio' lg={4} md={4}></Col>
+            <p>I am a full stack software engineer with a background in wildlife conservation and animal care. My passion and dedication to animals and their welfare has afforded me some amazing opportunities. </p>
+            <p>I’ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.</p>
+            <p>While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.</p>
+            <p>I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.</p>
+            {/*<Col lg={4} md={4} >
+                    <p id='bio-left'>I am a full stack software engineer with a background in wildlife conservation and animal care. My passion and dedication to animals and their welfare has afforded me some amazing opportunities. </p>
+                    <br></br><br></br>
+                    <p>I’ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.</p>
             </Col>
             <Col lg={4} md={4}>
                 <div id='bio-pic'></div>
             </Col>
             <Col lg={4} md={4} >
+                <p id='bio-right'>While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.</p>
+                <br></br><br></br>
+                <p>I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.</p>
                 <h1 className='mid'>Technologies</h1>
                     <h2 className='reg bold tech-cat'>Proficient: </h2>
                     <p className='reg inline-block'>JavaScript</p>
@@ -41,12 +55,13 @@ export default () => {
                     <p className='reg inline-block'>Socket.io</p>
                     <p className='reg inline-block'>Mocha</p>
                     <p className='reg inline-block'>Jasmine</p>
-            </Col>
+            </Col>*/}
         </div>
 
         
 
         <div id="section-two">
+            <div className='space-for-nav'></div>
             <div className='title'>
                 <h1 className='head project-title' >Projects</h1>
             </div>
@@ -101,6 +116,7 @@ export default () => {
             </div>
             <div id='section-three'>
                 <div className='line jumbo'>
+                    <div className='space-for-nav'></div>
                     <h1 className='head'>Education</h1>
                     <BackgroundItem name='Fullstack Academy of Code' year='April 2017' details={['Immersive 3-month software development bootcamp', '50+ hours a week spent coding']} url='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG0T_AFQhvuRPIA822vOdMIg7hDJdYasB-gPIoANCr4J6P0JzJRqQlgTZV'/>
                     <BackgroundItem name='University of Massachusetts Amherst' year='March 2012' details={['B.S. Wildlife and Fisheries Conservation', 'French Minor']} url='https://cdn.evbuc.com/eventlogos/85574/wordmark1blkmaroon.jpg'/>
@@ -108,6 +124,7 @@ export default () => {
 
                 <div id='section-four'>
                     {/*<div className='line jumbo'>*/}
+                        <div className='space-for-nav'></div>
                         <h1 className='head'>Experience</h1>
                         <BackgroundItem className='exp' name='Doggone Fit' year='October 2013 - April 2016' details={['Managed the finances, scheduling, and introductory meetings of up to 10 clients at a time.', 'Created and implemented training plans for individual dogs.', 'Maintained a social media page to update clients on their pets\' activities', 'https://www.instagram.com/dogdazeafternoons/']} url='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dog_Silhouette_01.svg/2000px-Dog_Silhouette_01.svg.png'/>
                         <BackgroundItem className='exp' name='Quality Inn' year='November 2013 - June 2014' details={['Provided customer service, mediated guest issues, and oversaw operations of the hotel as the sole employee on the evening shift']} url='https://static.wixstatic.com/media/eaba67_fb4605685c5449879ed5546c9ef35bc9~mv2.jpg'/>
