@@ -21395,7 +21395,7 @@ exports.default = function () {
     return _react2.default.createElement(
         'div',
         { id: 'resume-container' },
-        _react2.default.createElement('iframe', { width: '90%', height: '800', src: 'https://www.docdroid.net/KiuWNgM/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
+        _react2.default.createElement('iframe', { width: '90%', height: '800', src: 'https://www.docdroid.net/82tvfek/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
     );
 };
 
@@ -21533,7 +21533,7 @@ exports.default = function () {
                     _react2.default.createElement(
                         'strong',
                         null,
-                        'full stack software engineer'
+                        'full stack JavaScript developer'
                     ),
                     ' based in ',
                     _react2.default.createElement(
@@ -21553,7 +21553,7 @@ exports.default = function () {
                 _react2.default.createElement(
                     'p',
                     null,
-                    'I\u2019ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.'
+                    'I\u2019ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to regurgitate its food so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.'
                 ),
                 _react2.default.createElement('br', null),
                 _react2.default.createElement(
@@ -21571,7 +21571,7 @@ exports.default = function () {
                         null,
                         'Fullstack Academy'
                     ),
-                    ' in New York City. I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.'
+                    ' in New York City. Although I am primarily a JavaScript developer, I am eager and willing to learn new languages and frameworks. I particularly enjoy writing game logic and creating intuitive and innovative user interfaces. I am looking to expand and improve my skills in a developer position at a company that cares about giving back to the community. Please send me an email if you would like to connect!'
                 ),
                 _react2.default.createElement('br', null)
             )
