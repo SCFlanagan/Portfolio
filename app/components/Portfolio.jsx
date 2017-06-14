@@ -16,7 +16,7 @@ export default class MyNavbar extends React.Component {
                     firstPicId='wiw-pic1'
                     secondPicId='wiw-pic2'
                     firstP='This is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API. This was a solo project.'
-                    secondP='Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap'
+                    secondP='Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap, Google Maps API.'
                     firstLink='https://where-in-world.herokuapp.com'
                     secondLink='https://github.com/SCFlanagan/Where-in-the-World'
                     class1='left project-section'
