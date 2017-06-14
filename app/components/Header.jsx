@@ -7,7 +7,7 @@ export default class MyNavbar extends React.Component {
         return (
             <div id='home'>
                 <div id='header-content'>
-                    <h1>Susan Flanagan</h1>
+                    <h1 id='header-name'>Susan Flanagan</h1>
                     <h2>Sofware Engineer</h2>
                     <a id='view-work' href="#portfolio">View Work</a>
                 </div>

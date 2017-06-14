@@ -328,6 +328,10 @@ body {
     margin: 40vh auto;
 }
 
+#header-name {
+    font-size: 6rem;
+}
+
 #view-work {
     color: black;
     font-size: 1.6rem;
