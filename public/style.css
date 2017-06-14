@@ -147,9 +147,27 @@ body {
 }
 
 .contact-logo {
-    height: 55px;
-    width: 55px;
+    height: 60px;
+    width: 60px;
     margin: 0 5%;
+    border-radius: 60px;
+}
+
+.contact-logo:hover {
+    height: 65px;
+    width: 65px;
+}
+
+.contact-page-logo {
+    height: 60px;
+    width: 60px;
+    margin: 0 2%;
+    border-radius: 60px;
+}
+
+.contact-page-logo:hover {
+    height: 65px;
+    width: 65px;
 }
 
 /* Portfolio */
@@ -259,7 +277,7 @@ body {
 .contact-title {
     font-size: 6rem;
     margin-top: 70vh;
-    color: #f1f1f1;
+    color: #fff;
 }
 
 /* Contact Page */
@@ -270,13 +288,38 @@ body {
     font-size: 1.6rem;
     padding: 1.2rem 2.2rem;
     display: inline-block;
-    margin: 2rem 0;
+    margin: 6rem 0;
     text-decoration: none;
     border-radius: 0px !important;
+}
+
+#contact-text {
+    font-size: 1.8rem;
 }
 
 .btn:hover {
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+}
+
+/* Contact Footer */
+
+#contact-footer {
+    width: 100%;
+    background-color: #303030;
+    overflow: hidden;
+}
+
+.contact-created {
+    padding-top: 6rem;
+    font-size: 1.6rem;
+    padding-bottom: 6rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-created:hover {
+    color: #4eb9e6 !important;
+    text-decoration: none !important;
 }

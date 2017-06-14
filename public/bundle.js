@@ -13285,6 +13285,7 @@ exports.default = function () {
 // send email with form
 // Restyle project buttons (& first projects are cut off)
 // Review game descriptions
+// font
 
 /***/ }),
 /* 161 */
@@ -54588,11 +54589,15 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = function (props) {
   return _react2.default.createElement(
     'div',
-    { id: 'footer' },
+    { id: 'contact-footer' },
     _react2.default.createElement(
-      'p',
-      { className: 'created' },
-      'Site Created By: Susan Flanagan'
+      _reactRouter.Link,
+      { to: 'https://github.com/SCFlanagan/Personal-Website' },
+      _react2.default.createElement(
+        'p',
+        { className: 'contact-created' },
+        'Site Created By: Susan Flanagan'
+      )
     )
   );
 };
@@ -54602,6 +54607,8 @@ var _react = __webpack_require__(0);
 var _react2 = _interopRequireDefault(_react);
 
 var _reactBootstrap = __webpack_require__(68);
+
+var _reactRouter = __webpack_require__(96);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -54714,26 +54721,26 @@ var ContactPage = function (_React$Component) {
                 ),
                 _react2.default.createElement(
                     'p',
-                    null,
-                    'Interested in working with me? Connect with me on LinkedIn, email, or fill out the form below!'
+                    { id: 'contact-text' },
+                    'Interested in working with me? Check out my GitHub and connect with me through LinkedIn or email!'
                 ),
                 _react2.default.createElement(
                     'div',
                     { className: 'logos' },
                     _react2.default.createElement(
                         'a',
-                        { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
-                        _react2.default.createElement('img', { className: 'contact-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
+                        { href: 'https://github.com/SCFlanagan', target: '_blank' },
+                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5sI1s4_YLs5DLf6ETpKdXNFl700fVMHMlYulnjhOmWsg6NU-C' })
                     ),
                     _react2.default.createElement(
                         'a',
-                        { href: 'https://github.com/SCFlanagan', target: '_blank' },
-                        _react2.default.createElement('img', { className: 'contact-logo', src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5sI1s4_YLs5DLf6ETpKdXNFl700fVMHMlYulnjhOmWsg6NU-C' })
+                        { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
+                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
                     ),
                     _react2.default.createElement(
                         'a',
                         { href: 'mailto:SusanFlanagan7@gmail.com' },
-                        _react2.default.createElement('img', { className: 'contact-logo', src: 'http://www.freeiconspng.com/uploads/email-icon-23.png' })
+                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'http://www.freeiconspng.com/uploads/email-icon-23.png' })
                     )
                 )
             );
