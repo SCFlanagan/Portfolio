@@ -7,7 +7,7 @@ import { Col } from 'react-bootstrap';
 export default function(props) {
     return (
       <div id="footer">
-        <div className='footer-logos'>
+        <div className='logos'>
 
             <a href='https://www.linkedin.com/in/susan-flanagan-05b26a139/' target='_blank'><img className='contact-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png'/></a>
 
