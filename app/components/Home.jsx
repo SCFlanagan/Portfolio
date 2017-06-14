@@ -16,7 +16,3 @@ export default () => {
     </div>
   )
 }
-
-
-// Add a sentence in my bio about goals, how i want to gain experience and knowledge. Make more goal-oriented.
-// Review game descriptions

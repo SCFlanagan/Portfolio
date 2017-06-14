@@ -12766,10 +12766,105 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 /***/ }),
 /* 164 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Expecting Unicode escape sequence \\uXXXX (6:57)\n\n\u001b[0m \u001b[90m 4 | \u001b[39m\u001b[36mimport\u001b[39m { connect } from \u001b[32m'react-redux'\u001b[39m\n \u001b[90m 5 | \u001b[39m\u001b[36mimport\u001b[39m { \u001b[33mNavbar\u001b[39m\u001b[33m,\u001b[39m \u001b[33mNav\u001b[39m\u001b[33m,\u001b[39m \u001b[33mNavItem\u001b[39m\u001b[33m,\u001b[39m \u001b[33mNavDropdown\u001b[39m\u001b[33m,\u001b[39m \u001b[33mMenuItem\u001b[39m\u001b[33m,\u001b[39m \u001b[33mFormGroup\u001b[39m\u001b[33m,\u001b[39m \u001b[33mFormControl\u001b[39m\u001b[33m,\u001b[39m \u001b[33mButton\u001b[39m } from \u001b[32m'react-bootstrap'\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 6 | \u001b[39m\u001b[36mimport\u001b[39m { \u001b[33mRoute\u001b[39m\u001b[33m,\u001b[39m \u001b[33mRouteHandler\u001b[39m\u001b[33m,\u001b[39m \u001b[33mLink\u001b[39m } from \u001b[32m'react-router'\u001b[39m\u001b[37m\u001b[41m\u001b[1m\\\u001b[22m\u001b[49m\u001b[39m\n \u001b[90m   | \u001b[39m                                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 7 | \u001b[39m\u001b[36mimport\u001b[39m { \u001b[33mLinkContainer\u001b[39m } from \u001b[32m'react-router-bootstrap'\u001b[39m\n \u001b[90m 8 | \u001b[39m\n \u001b[90m 9 | \u001b[39m\u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m \u001b[36mclass\u001b[39m \u001b[33mMyNavbar\u001b[39m \u001b[36mextends\u001b[39m \u001b[33mReact\u001b[39m\u001b[33m.\u001b[39m\u001b[33mComponent\u001b[39m {\u001b[0m\n");
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(544);
+
+var _reactBootstrap = __webpack_require__(69);
+
+var _reactRouter = __webpack_require__(42);
+
+var _reactRouterBootstrap = __webpack_require__(548);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var MyNavbar = function (_React$Component) {
+    _inherits(MyNavbar, _React$Component);
+
+    function MyNavbar(props) {
+        _classCallCheck(this, MyNavbar);
+
+        return _possibleConstructorReturn(this, (MyNavbar.__proto__ || Object.getPrototypeOf(MyNavbar)).call(this, props));
+    }
+
+    _createClass(MyNavbar, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactBootstrap.Navbar,
+                { inverse: true, collapseOnSelect: true },
+                _react2.default.createElement(
+                    _reactBootstrap.Navbar.Header,
+                    null,
+                    _react2.default.createElement(
+                        _reactBootstrap.Navbar.Brand,
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { className: 'nav', href: '/home#top' },
+                            'SUSAN FLANAGAN'
+                        )
+                    ),
+                    _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
+                ),
+                _react2.default.createElement(
+                    _reactBootstrap.Navbar.Collapse,
+                    null,
+                    _react2.default.createElement(
+                        _reactBootstrap.Nav,
+                        { pullRight: true },
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
+                            { className: 'nav', eventKey: 2, onClick: function onClick() {
+                                    _this2.routeTo();
+                                }, href: '/home#about' },
+                            'ABOUT'
+                        ),
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
+                            { className: 'nav', eventKey: 3, onClick: function onClick() {
+                                    _this2.routeTo();
+                                }, href: '/home#portfolio' },
+                            'PORTFOLIO'
+                        ),
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
+                            { className: 'nav', eventKey: 4, href: '/contact', onClick: function onClick() {
+                                    _this2.routeTo();
+                                } },
+                            'CONTACT'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return MyNavbar;
+}(_react2.default.Component);
+
+exports.default = MyNavbar;
 
 /***/ }),
 /* 165 */
@@ -21795,9 +21890,6 @@ exports.default = function () {
     _react2.default.createElement(_Portfolio2.default, null)
   );
 };
-
-// Add a sentence in my bio about goals, how i want to gain experience and knowledge. Make more goal-oriented.
-// Review game descriptions
 
 /***/ }),
 /* 289 */
