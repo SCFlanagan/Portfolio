@@ -269,18 +269,6 @@ body {
     margin-top: 12.5vh;
 }
 
-.logos {
-    padding-top: 5vh;
-    margin-bottom: 5vh !important;
-}
-
-.logo-box {
-    height: 80px;
-    width: 80px;
-    display: inline-block;
-    margin: 0 5vh;
-}
-
 .created {
     font-size: 1.6rem;
     padding-bottom: 5vh;
@@ -296,6 +284,20 @@ body {
 .created:visited {
     font-size: 1.6rem;
     text-decoration: none;
+}
+
+/* Logos */
+
+.logos {
+    padding-top: 5vh;
+    margin-bottom: 5vh !important;
+}
+
+.logo-box {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 0 5vh;
 }
 
 .contact-logo {
