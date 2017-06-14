@@ -302,16 +302,15 @@ body {
 }
 
 .banner {
-    height: 40vh;
     width: 100%;
     background-color: lightblue;
     overflow: hidden;
 }
 
 .banner-title {
-    font-size: 15vh !important;
+    font-size: 12rem !important;
     color: white !important;
-    margin: 12.5vh 0;
+    padding: 12vh 0;
 }
 
 /* Header */
@@ -388,18 +387,19 @@ body {
 
 #footer {
     width: 100%;
-    height: 25vh;
     background-color: #303030;
     color: #f9f8f9;
-    border: 3px solid #303030;
+    overflow: hidden;
 }
 
 .footer-logos {
-    margin: 5vh 0 !important;
+    padding-top: 5vh;
+    margin-bottom: 5vh !important;
 }
 
 .created {
     font-size: 1.6rem;
+    padding-bottom: 5vh;
 }
 
 .contact-logo {
