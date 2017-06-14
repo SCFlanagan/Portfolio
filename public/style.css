@@ -1,4 +1,4 @@
-body {
+/*body {
     font-family: "Open Sans Condensed";
     text-align: center;
     letter-spacing: 2px;
@@ -13,6 +13,22 @@ body {
     margin-top: 2vh;
     text-shadow: 1px 1px #55614a;
 }
+
+.banner {
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: -6vh;
+}
+
+.banner-title {
+    color: white;
+    font-size: 15vh;
+    padding-top: 12vh;
+    margin-top: 0.5vh;
+}
+
 .mid {
     color: #ffe575;
     height: 6vh;
@@ -25,12 +41,12 @@ body {
 }
 
 .line {
-    border-bottom: 3px solid #ffe575;
+    border-bottom: 1px solid #55614a;
 }
 
 .jumbotron {
     height: 100vh;
-    margin: 0px;
+    margin: 0px 0px;
 }
 
 .jumbo {
@@ -62,28 +78,38 @@ body {
     color: #ffe575;
 }
 
-.blank-bio {
-    height: 40vh;
-    margin-bottom: 10px;
+#portfolio {
+    background-image: url('http://img05.deviantart.net/8b52/i/2010/059/8/4/faded_scenery_by_singingblackbird.jpg');
 }
 
-#bio-right {
-    margin-top: 5vh;
+#skills {
+    background-image: url('https://c2.staticflickr.com/8/7267/7866143788_93046e3903_b.jpg');
 }
-#bio-left {
-    margin-top: 10vh;
+
+#skill-section {
+    background-color: gray;
+}
+
+.blank-bio {
+    height: 250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+p {
+    letter-spacing: 0px;
 }
 
 #bio-pic {
-     height: 40vh;
-     border: 2px solid black;
+     height: 250px;
+     width: 250px;
+     border: 2px solid #55614a;
      margin-left: auto;
      margin-right: auto;
-     margin-bottom: 5px;
-     border-radius: 15px;
-     background-image: url('./horsebio.jpg');
+     background-image: url('./pictures/headshot.jpg');
      background-size: cover;
      background-position: center;
+     border-radius: 360px;
 }
 
 .inline-block {
@@ -100,7 +126,10 @@ body {
     position: relative;
     overflow: hidden;
     color: #5fbec0;
-    
+}
+
+#first-project {
+    margin-top: 15vh;
 }
 
 .screenshots {
@@ -114,27 +143,27 @@ body {
 }
 
 #wiw-pic1 {
-    background-image: url('./wiwtitle.jpg')
+    background-image: url('./pictures/wiwtitle.jpg');
 }
 
 #wiw-pic2 {
-    background-image: url('./wiwgame.jpg')
+    background-image: url('./pictures/wiwgame.jpg');
 }
 
-#y-pic1 {
-    background-image: url('./wiwtitle.jpg')
+#r-pic1 {
+    background-image: url('./pictures/Rummypic1.jpg');
 }
 
-#y-pic2 {
-    background-image: url('./wiwgame.jpg')
+#r-pic2 {
+    background-image: url('./pictures/Rummypic2.jpg');
 }
 
 #nyu-pic1 {
-    background-image: url('./nyuboard.jpg')
+    background-image: url('./pictures/nyuboard.jpg');
 }
 
 #nyu-pic2 {
-    background-image: url('./nyubuy.jpg')
+    background-image: url('./pictures/nyubuy.jpg');
 }
 
 .project-head {
@@ -244,4 +273,143 @@ body {
 .space-for-nav {
     height: 5vh;
     width: 100%;
+}*/
+
+
+
+body {
+    text-align: center;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    border-radius: 0px;
+    height: 5vh;
+    width: 100%;
+    z-index: 4;
+    opacity: .8;
+    background-color: black;
+    color: white;
+}
+
+/* Containers */
+
+#about {
+    height: 7vh;
+}
+
+.banner {
+    height: 40vh;
+    width: 100%;
+    background-color: lightblue;
+    overflow: hidden;
+}
+
+.banner-title {
+    font-size: 15vh !important;
+    color: white !important;
+    margin: 12.5vh 0;
+}
+
+/* Header */
+
+#home {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header-content {
+    margin: 40vh auto;
+}
+
+#view-work {
+    color: lightblue;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border: 1px solid lightblue;
+    display: inline-block;
+    margin: 2rem 0;
+    border-radius: 1px;
+}
+
+#view-work:hover {
+    cursor: pointer;
+    background-color: lightblue;
+    color: gray;
+}
+
+/* About Section */
+
+#headshot {
+    width: 250px;
+    height: 250px;
+    border-radius: 200px;
+    background-image: url('./pictures/headshot.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+}
+
+#bio {
+    margin: 3vh 10%;
+}
+
+#bio p {
+    font-size: 1.6rem;
+}
+
+#headshot {
+    margin: 3vh auto;
+}
+
+/* Skills */
+
+.tech-title {
+    margin: 5vh 0;
+}
+
+.tech-section {
+    margin: 5vh 10%;
+}
+
+.tech {
+    display: inline-block;
+    margin: 2vh 5%;
+    font-size: 1.6rem;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    height: 25vh;
+    background-color: #303030;
+    color: #f9f8f9;
+    border: 3px solid #303030;
+}
+
+ .foot-head {
+    font-size: 8vh;
+    margin-bottom: 4vh;
+}
+
+.footer-item {
+    margin-bottom: 10vh;
+    font-size: 2vh;
+}
+
+.created {
+    padding-top: 8vh;
+}
+
+.contact-logo {
+    height: 55px;
+    width: 55px;
+    margin-top: 5vh;
 }

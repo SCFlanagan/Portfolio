@@ -10,66 +10,38 @@ export default () => {
             <h1 id='header-head'>Susan Flanagan</h1>
             <h3 id='header-text'>Software Engineer</h3>
         </Jumbotron>
-        <div id="section-one" className='jumbo line bio'>
+        <div id="about" className='jumbo bio'>
             <div className='space-for-nav'></div>
-            <h1 className='head'>About</h1>
+            <h1 className='hello'>Hello</h1>
             <Col className='blank-bio' lg={4} md={4}></Col>
             <Col className='blank-bio' lg={4} md={4}>
                 <div id='bio-pic'></div>
             </Col>
             <Col className='blank-bio' lg={4} md={4}></Col>
-            <p>I am a full stack software engineer with a background in wildlife conservation and animal care. My passion and dedication to animals and their welfare has afforded me some amazing opportunities. </p>
-            <p>I’ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.</p>
-            <p>While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.</p>
-            <p>I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.</p>
-            {/*<Col lg={4} md={4} >
-                    <p id='bio-left'>I am a full stack software engineer with a background in wildlife conservation and animal care. My passion and dedication to animals and their welfare has afforded me some amazing opportunities. </p>
-                    <br></br><br></br>
-                    <p>I’ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.</p>
-            </Col>
-            <Col lg={4} md={4}>
-                <div id='bio-pic'></div>
-            </Col>
-            <Col lg={4} md={4} >
-                <p id='bio-right'>While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.</p>
-                <br></br><br></br>
-                <p>I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.</p>
-                <h1 className='mid'>Technologies</h1>
-                    <h2 className='reg bold tech-cat'>Proficient: </h2>
-                    <p className='reg inline-block'>JavaScript</p>
-                    <p className='reg inline-block'>Node.js</p>
-                    <p className='reg inline-block'>Express.js</p>
-                    <p className='reg inline-block'>React.js</p>
-                    <p className='reg inline-block'>Redux</p>
-                    <p className='reg inline-block'>PostgreSQL</p>
-                    <p className='reg inline-block'>Sequelize</p>
-                    <p className='reg inline-block'>CSS</p>
-                    <p className='reg inline-block'>HTML</p>
-                    <p className='reg inline-block'>Bootstrap</p>
-                    <p className='reg inline-block'>Git</p>
-
-                    <h2 className='reg bold tech-cat'>Knowledgeable: </h2>
-                    <p className='reg inline-block'>jQuery</p>
-                    <p className='reg inline-block'>SASS/SCSS</p>
-                    <p className='reg inline-block'>Firebase</p>
-                    <p className='reg inline-block'>Socket.io</p>
-                    <p className='reg inline-block'>Mocha</p>
-                    <p className='reg inline-block'>Jasmine</p>
-            </Col>*/}
+            <p>I am a <strong>full stack software engineer</strong> based in <strong>Brooklyn, NY</strong>. I have a degree in Wildlife Conservation from the <strong>University of Massachusetts Amherst</strong>. My passion and dedication to conservation has afforded me some amazing opportunities. </p><br></br>
+            <p>I’ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to vomit so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.</p><br></br>
+            <p>While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.</p><br></br>
+            <p>I formalized my interest in code by attending <strong>Fullstack Academy</strong> in New York City. I am predominantly a JavaScript developer, but am eager and willing to learn new technologies and skills. I am particularly interested in writing game logic and creating intuitive and seamless user interfaces.</p><br></br>
         </div>
 
-        
-
-        <div id="section-two">
-            <div className='space-for-nav'></div>
-            <div className='title'>
-                <h1 className='head project-title' >Projects</h1>
+        <div className='jumbotron'>
+            <div id="skills" className='banner'>
+                <h1 className='banner-title'>SKILLS</h1>
+                <div id='skill-section'>
+                </div>
             </div>
+        </div>
+
+        <div id="portfolio" className='banner'>
+            <h1 className='banner-title'>PORTFOLIO</h1>
+        </div>
+        
+        <div>
             <div>
-                <div className='projects'>
+                <div className='projects' id='first-project'>
                     <Col lg={6} md={6}>
                         <h3 className='pt project-head'>Where in the World</h3>
-                        <p className='reg project-item'>A game application designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.</p>
+                        <p className='reg project-item'>A game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.</p>
                         <p className='reg project-item'>Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap</p>
                         <p className='reg project-item'>Solo Project</p>
                         <a className='site link' href='https://where-in-world.herokuapp.com' target="_blank">Play the Game</a>
@@ -97,23 +69,24 @@ export default () => {
                     </Col>
                 </div>
 
-                <div className='projects line'>
+                <div className='projects'>
                     <Col lg={6} md={6}>
-                        <h3 className='pt project-head'>Yahtzee</h3>
+                        <h3 className='pt project-head'>Rummy</h3>
                         <p className='reg'>Solo Project</p>
-                        <p className='reg'>Used Node/Express, React-Redux, HTML, CSS, Bootstrap</p>
-                        <p className='reg'>Created an articial computer player to play against.</p>
-                        <a className='site link' href='https://where-in-world.herokuapp.com' target="_blank">Play the Game</a>
+                        <p className='reg'>Used Node, Express, React, Redux, HTML, CSS, Bootstrap</p>
+                        <p className='reg'>Play this digitized version of Rummy against an AI player.</p>
+                        <a className='site link' href='https://gametown.herokuapp.com' target="_blank">Play the Game</a>
                         <span className='reg'> | </span>
-                        <a className='code link' href='https://github.com/SCFlanagan/one-player-yahtzee' target="_blank">View Code</a>
+                        <a className='code link' href='https://github.com/SCFlanagan/Rummy' target="_blank">View Code</a>
                     </Col>
                     <Col lg={6} md={6}>
-                        <div id='y-pic1' className='screenshots'></div>
-                        <div id='y-pic2' className='screenshots'></div>
+                        <div id='r-pic1' className='screenshots'></div>
+                        <div id='r-pic2' className='screenshots'></div>
                     </Col>
                 </div>
 
             </div>
+            {/*}
             <div id='section-three'>
                 <div className='line jumbo'>
                     <div className='space-for-nav'></div>
@@ -123,7 +96,6 @@ export default () => {
                 </div>
 
                 <div id='section-four'>
-                    {/*<div className='line jumbo'>*/}
                         <div className='space-for-nav'></div>
                         <h1 className='head'>Experience</h1>
                         <BackgroundItem className='exp' name='Doggone Fit' year='October 2013 - April 2016' details={['Managed the finances, scheduling, and introductory meetings of up to 10 clients at a time.', 'Created and implemented training plans for individual dogs.', 'Maintained a social media page to update clients on their pets\' activities', 'https://www.instagram.com/dogdazeafternoons/']} url='https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Dog_Silhouette_01.svg/2000px-Dog_Silhouette_01.svg.png'/>
@@ -131,9 +103,9 @@ export default () => {
                         <BackgroundItem className='exp' name='Urban Wildlife Rehabilitation Wallacea' year='June - August 2011' details={['Aided in the rehabilitation and release of orphaned or injured raccoons, squirrels, skunks, and groundhogs.', 'Cleaned, vaccinated, hand-fed, and administered medications to animals.']} 
                         url='http://farm8.static.flickr.com/7270/7418129800_378fd27e08_z.jpg'/>
                         <BackgroundItem className='exp' name='Operation Wallacea' year='July - August 2010' details={['Collected behavioral and physiological data using a variety of wildlife sampling techniques.', 'Data collection and management for 15 different wildlife conservation research projects in the Amazon River basin.']} url='http://www.samosdiving.com/wp-content/uploads/2015/10/opwall-post.jpg'/>
-                    {/*</div>*/}
                 </div>
             </div>
+            */}
         </div>
       </div>
 

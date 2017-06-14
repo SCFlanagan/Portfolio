@@ -16,24 +16,16 @@ export default class MyNavbar extends React.Component {
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
             <Navbar.Brand>
-                <a href="#top">Susan Flanagan</a>
+                <a href="#home">Susan Flanagan</a>
             </Navbar.Brand>
             <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
             <Nav pullRight>
-                <NavItem eventKey={1} onClick={() => {this.routeTo()}} href="#section-one">About</NavItem>
-                <NavItem eventKey={2} onClick={() => {this.routeTo()}}href='#section-two'>Projects</NavItem>
-                {/*<NavDropdown eventKey={3} title="Projects" id="basic-nav-dropdown">
-                    <MenuItem eventKey={3.1}>Where in the World</MenuItem>
-                    <MenuItem eventKey={3.2}>Nyuyoku</MenuItem>
-                    <MenuItem eventKey={3.3}>Yahtzee</MenuItem>
-                    <MenuItem divider />
-                    <MenuItem eventKey={3.3}>More Projects</MenuItem>
-                </NavDropdown>*/}
-                <NavItem eventKey={3} href="#section-three" onClick={() => {this.routeTo()}}>Education</NavItem>
-                <NavItem eventKey={4} href="#section-four" onClick={() => {this.routeTo()}}>Experience</NavItem>
-                <NavItem eventKey={5} href="#footer" onClick={() => {this.routeTo()}}>Contact</NavItem>
+                <NavItem eventKey={1} onClick={() => {this.routeTo()}} href="#home">Home</NavItem>
+                <NavItem eventKey={2} onClick={() => {this.routeTo()}} href="#about">About</NavItem>
+                <NavItem eventKey={3} onClick={() => {this.routeTo()}}href='#portfolio'>Portfolio</NavItem>
+                <NavItem eventKey={4} href="#footer" onClick={() => {this.routeTo()}}>Contact</NavItem>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
