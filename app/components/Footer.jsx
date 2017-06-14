@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Col } from 'react-bootstrap';
+import { Link } from 'react-router';
 
 
 export default function(props) {
@@ -16,7 +17,9 @@ export default function(props) {
             <a href='mailto:SusanFlanagan7@gmail.com'><img className='contact-logo' src='http://www.freeiconspng.com/uploads/email-icon-23.png'/></a>
 
         </div>
-        <p className='created'>Site Created By: Susan Flanagan</p>
+        <Link to='https://github.com/SCFlanagan/Personal-Website'>
+          <p className='created'>Site Created By: Susan Flanagan</p>
+        </Link>
       </div>
     )
 }

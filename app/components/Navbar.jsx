@@ -1,3 +1,5 @@
+'use strict';
+
 import React from 'react'
 import { connect } from 'react-redux'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Button } from 'react-bootstrap'
@@ -16,16 +18,16 @@ export default class MyNavbar extends React.Component {
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
             <Navbar.Brand>
-                <a href="#home">Susan Flanagan</a>
+                <a className='nav' href="http://susanflanagan.herokuapp.com/home#top">SUSAN FLANAGAN</a>
             </Navbar.Brand>
             <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
             <Nav pullRight>
-                <NavItem eventKey={1} onClick={() => {this.routeTo()}} href="/home#home">Home</NavItem>
-                <NavItem eventKey={2} onClick={() => {this.routeTo()}} href="/home#about">About</NavItem>
-                <NavItem eventKey={3} onClick={() => {this.routeTo()}}href='/home#portfolio'>Portfolio</NavItem>
-                <NavItem eventKey={4} href="/contact" onClick={() => {this.routeTo()}}>Contact</NavItem>
+                <NavItem className='nav' eventKey={1} onClick={() => {this.routeTo()}} href='http://susanflanagan.herokuapp.com/home#top'>HOME</NavItem>
+                <NavItem className='nav' eventKey={2} onClick={() => {this.routeTo()}} href='http://susanflanagan.herokuapp.com/home#about'>ABOUT</NavItem>
+                <NavItem className='nav' eventKey={3} onClick={() => {this.routeTo()}}href='http://susanflanagan.herokuapp.com/home#portfolio'>PORTFOLIO</NavItem>
+                <NavItem className='nav' eventKey={4} href="/contact" onClick={() => {this.routeTo()}}>CONTACT</NavItem>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

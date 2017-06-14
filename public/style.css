@@ -1,5 +1,7 @@
 body {
     text-align: center;
+    font-family: 'Book Antiqua';
+    letter-spacing: 0.5px;
 }
 
 /* Navbar */
@@ -14,6 +16,10 @@ body {
     opacity: .8;
     background-color: #000;
     color: #fff;
+}
+
+.nav {
+    letter-spacing: 3px;
 }
 
 /* Containers */
@@ -44,7 +50,7 @@ body {
     overflow: hidden;
 }
 
-#home {
+#top {
     background-image: url('https://images.pexels.com/photos/28878/pexels-photo-28878.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
     background-size: cover;
     background-position: center;
@@ -67,7 +73,7 @@ body {
 #view-work {
     color: #f1f1f1;
     font-size: 1.6rem;
-    padding: 1.2rem;
+    padding: 1.2rem 3.2rem;
     border: 2px solid #f1f1f1;
     display: inline-block;
     margin: 2rem 0;
@@ -93,7 +99,7 @@ body {
 }
 
 #bio {
-    margin: 3vh 10%;
+    margin: 3vh 15%;
 }
 
 #bio p {
@@ -124,50 +130,6 @@ body {
     display: inline-block;
     margin: 2vh 5%;
     font-size: 1.6rem;
-}
-
-/* Footer */
-
-#footer {
-    width: 100%;
-    background-color: #303030;
-    color: #f9f8f9;
-    overflow: hidden;
-    margin-top: 12.5vh;
-}
-
-.logos {
-    padding-top: 5vh;
-    margin-bottom: 5vh !important;
-}
-
-.created {
-    font-size: 1.6rem;
-    padding-bottom: 5vh;
-}
-
-.contact-logo {
-    height: 60px;
-    width: 60px;
-    margin: 0 5%;
-    border-radius: 60px;
-}
-
-.contact-logo:hover {
-    height: 65px;
-    width: 65px;
-}
-
-.contact-page-logo {
-    height: 60px;
-    width: 60px;
-    margin: 2% 2%;
-    border-radius: 60px;
-}
-
-.contact-page-logo:hover {
-    height: 65px;
-    width: 65px;
 }
 
 /* Portfolio */
@@ -245,6 +207,7 @@ body {
     font-size: 3.8rem;
     margin-top: 10vh;
     margin-bottom: 4vh;
+    color: #000;
 }
 
 .site {
@@ -264,6 +227,56 @@ body {
 .reg{
     color: #303030;
     font-size: 1.6rem;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    background-color: #303030;
+    color: #f9f8f9;
+    overflow: hidden;
+    margin-top: 12.5vh;
+}
+
+.logos {
+    padding-top: 5vh;
+    margin-bottom: 5vh !important;
+}
+
+.created {
+    font-size: 1.6rem;
+    padding-bottom: 5vh;
+    color: #fff;
+}
+
+.created:hover {
+    color: #4eb9e6 !important;
+    text-decoration: none !important;
+}
+
+.contact-logo {
+    height: 60px;
+    width: 60px;
+    margin: 0 5%;
+    border-radius: 60px;
+}
+
+.contact-logo:hover {
+    height: 65px;
+    width: 65px;
+}
+
+.contact-page-logo {
+    height: 60px;
+    width: 60px;
+    margin: 2% 2%;
+    border-radius: 60px;
+}
+
+.contact-page-logo:hover {
+    height: 65px;
+    width: 65px;
 }
 
 /* Contact Header */
@@ -286,11 +299,12 @@ body {
     background-color: #000;
     color: #fff;
     font-size: 1.6rem;
-    padding: 1.2rem 2.2rem;
+    padding: 1.2rem 3.2rem;
     display: inline-block;
     margin: 6rem 0;
     text-decoration: none;
     border-radius: 0px !important;
+    letter-spacing: 3px;
 }
 
 #contact-text {

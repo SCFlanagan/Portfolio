@@ -1,3 +1,5 @@
+'use strict';
+
 import React, { Component } from 'react';
 import { Col } from 'react-bootstrap'
 
@@ -15,7 +17,7 @@ export default class Project extends Component {
                 </div>
                 <div className={this.props.class2}>
                     <div className='project-text'>
-                        <h3 className='pt project-head'><strong>{this.props.title}</strong></h3>
+                        <h3 className='pt project-head'>{this.props.title}</h3>
                         <p className='reg project-item'>{this.props.firstP}</p>
                         <p className='reg project-item'>{this.props.secondP}</p>
                         <a className='site link' href={this.props.firstLink} target="_blank"><strong>Play the Game</strong></a>
