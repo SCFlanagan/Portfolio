@@ -1,282 +1,3 @@
-/*body {
-    font-family: "Open Sans Condensed";
-    text-align: center;
-    letter-spacing: 2px;
-    background: #f9f8f9;
-}
-
-.head {
-    color: #ffe575;
-    height: 12vh;
-    font-size: 10vh;
-    
-    margin-top: 2vh;
-    text-shadow: 1px 1px #55614a;
-}
-
-.banner {
-    width: 100%;
-    height: 40vh;
-    background-position: center;
-    background-size: cover;
-    margin-top: -6vh;
-}
-
-.banner-title {
-    color: white;
-    font-size: 15vh;
-    padding-top: 12vh;
-    margin-top: 0.5vh;
-}
-
-.mid {
-    color: #ffe575;
-    height: 6vh;
-    font-size: 5vh;
-    text-shadow: .8px .8px #55614a;
-}
-.reg{
-    color: #55614a;
-    font-size: 2vh;
-}
-
-.line {
-    border-bottom: 1px solid #55614a;
-}
-
-.jumbotron {
-    height: 100vh;
-    margin: 0px 0px;
-}
-
-.jumbo {
-    height: 100vh;
-    width: 80%;
-    margin: 0 auto;
-}
-
-#header {
-    background-image: url('https://static.pexels.com/photos/5275/road-curve-bend-rainy.jpg');
-    background-size: cover;
-    z-index: 0;
-    text-shadow: 1px 1px #55614a;
-}
-#header-head {
-    z-index: 1;
-    width: 26%;
-    color: #ffe575;
-    margin-top: 42vh;
-    margin-left: 37%;
-    margin-right: 37%;
-    padding-bottom: 1.5vh;
-    border-bottom: 2px solid #ffe575;
-    font-size: 6vh;
-    letter-spacing: 3px;
-}
-#header-text {
-    font-size: 4vh;
-    color: #ffe575;
-}
-
-#portfolio {
-    background-image: url('http://img05.deviantart.net/8b52/i/2010/059/8/4/faded_scenery_by_singingblackbird.jpg');
-}
-
-#skills {
-    background-image: url('https://c2.staticflickr.com/8/7267/7866143788_93046e3903_b.jpg');
-}
-
-#skill-section {
-    background-color: gray;
-}
-
-.blank-bio {
-    height: 250px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-p {
-    letter-spacing: 0px;
-}
-
-#bio-pic {
-     height: 250px;
-     width: 250px;
-     border: 2px solid #55614a;
-     margin-left: auto;
-     margin-right: auto;
-     background-image: url('./pictures/headshot.jpg');
-     background-size: cover;
-     background-position: center;
-     border-radius: 360px;
-}
-
-.inline-block {
-    margin: 1vh 5%;
-    display: inline-block;
-}
-
-.projects {
-    width: 70%;
-    margin-bottom: 12vh;
-    margin-left: auto;
-    margin-right: auto;
-    height: 75vh;
-    position: relative;
-    overflow: hidden;
-    color: #5fbec0;
-}
-
-#first-project {
-    margin-top: 15vh;
-}
-
-.screenshots {
-    height: 35vh;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid black;
-    width: 100%;
-    margin-left: 3%;
-    margin-bottom: 2vh;
-}
-
-#wiw-pic1 {
-    background-image: url('./pictures/wiwtitle.jpg');
-}
-
-#wiw-pic2 {
-    background-image: url('./pictures/wiwgame.jpg');
-}
-
-#r-pic1 {
-    background-image: url('./pictures/Rummypic1.jpg');
-}
-
-#r-pic2 {
-    background-image: url('./pictures/Rummypic2.jpg');
-}
-
-#nyu-pic1 {
-    background-image: url('./pictures/nyuboard.jpg');
-}
-
-#nyu-pic2 {
-    background-image: url('./pictures/nyubuy.jpg');
-}
-
-.project-head {
-    margin-top: 6vh;
-    margin-bottom: 8vh;
-}
-
-.site {
-    color: red;
-}
-
-.code {
-    color: orange;
-}
-
-.link {
-    font-size: 3vh;
-}
-
-.edu {
-    margin: 10vh auto;
-    margin-top: 10vh;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
-}
-
-
-.box-text {
-    margin-top: 4vh;
-}
-
-.box {
-    height: 33vh;
-    width: 80%;
-    margin: 0 auto;
-}
-.logo {
-    width: 80%;
-    height: 25vh;
-    margin: 0 auto;
-}
-.blocked {
-    width: 80%;
-    margin: 1vh auto;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.navbar {
-    position: fixed;
-    top: 0px;
-    border-radius: 0px;
-    width: 100%;
-    z-index: 4;
-    opacity: .8;
-}
-
-#footer {
-    width: 100%;
-    height: 45vh;
-    background-color: #4c4c4c;
-    color: #f9f8f9;
-    border: 3px solid #4c4c4c;
-}
-
-.contact-logo {
-    height: 55px;
-    width: 55px;
-}
-
-.tech-cat {
-    margin-top: 10vh;
-}
-
-.pt {
-    font-size: 8vh;
-    color: #ffe575;
-    text-shadow: 1px 1px #55614a;
-}
-
-.foot-head {
-    font-size: 8vh;
-    margin-bottom: 4vh;
-}
-
-.footer-item {
-    margin-bottom: 10vh;
-    font-size: 2vh;
-}
-
-.created {
-    padding-top: 5vh;
-}
-
-.project-item {
-    margin-bottom: 5vh;
-}
-
-.space-for-nav {
-    height: 5vh;
-    width: 100%;
-}*/
-
-
-
 body {
     text-align: center;
 }
@@ -315,20 +36,20 @@ body {
 
 /* Header */
 
-#home {
+.header {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: lightblue;
 }
 
-#header-content {
-    margin: 40vh auto;
+.header-content {
+    margin: 35vh auto;
 }
 
-#header-name {
+.header-name {
     font-size: 6rem;
 }
 
@@ -339,7 +60,6 @@ body {
     border: 2px solid black;
     display: inline-block;
     margin: 2rem 0;
-    border-radius: 1px;
     text-decoration: none;
 }
 
@@ -468,11 +188,6 @@ body {
     background-image: url('./pictures/nyubuy.jpg');
 }
 
-
-
-
-
-
 .screenshots {
     height: 35vh;
     background-size: cover;
@@ -487,7 +202,7 @@ body {
 
 .project-head {
     font-size: 3.8rem;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 4vh;
 }
 
@@ -508,4 +223,17 @@ body {
 .reg{
     color: #303030;
     font-size: 1.6rem;
+}
+
+/* Contact Page */
+
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.2rem 2.2rem;
+    display: inline-block;
+    margin: 2rem 0;
+    text-decoration: none;
+    border-radius: 0px !important;
 }

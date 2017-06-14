@@ -22,23 +22,13 @@ export default class MyNavbar extends React.Component {
             </Navbar.Header>
             <Navbar.Collapse>
             <Nav pullRight>
-                <NavItem eventKey={1} onClick={() => {this.routeTo()}} href="#home">Home</NavItem>
-                <NavItem eventKey={2} onClick={() => {this.routeTo()}} href="#about">About</NavItem>
-                <NavItem eventKey={3} onClick={() => {this.routeTo()}}href='#portfolio'>Portfolio</NavItem>
-                <NavItem eventKey={4} href="#footer" onClick={() => {this.routeTo()}}>Contact</NavItem>
+                <NavItem eventKey={1} onClick={() => {this.routeTo()}} href="/#home">Home</NavItem>
+                <NavItem eventKey={2} onClick={() => {this.routeTo()}} href="/home#about">About</NavItem>
+                <NavItem eventKey={3} onClick={() => {this.routeTo()}}href='/home#portfolio'>Portfolio</NavItem>
+                <NavItem eventKey={4} href="/contact" onClick={() => {this.routeTo()}}>Contact</NavItem>
             </Nav>
             </Navbar.Collapse>
         </Navbar>
     )
   }
 }
-
-
-/* TO DO
-    - write bio
-    - redo projects and descriptions and make it a component
-    - make education and experience their own jumbotrons
-    - reformat contact footer, add brooklyn
-    - change raccoon picture
-    - make pictures smaller in education/experience and larger in projects
-*/
