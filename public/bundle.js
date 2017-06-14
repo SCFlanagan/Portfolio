@@ -13402,28 +13402,10 @@ exports.default = function (props) {
   return _react2.default.createElement(
     'div',
     { id: 'footer' },
+    _react2.default.createElement(_Logos2.default, null),
     _react2.default.createElement(
-      'div',
-      { className: 'logos' },
-      _react2.default.createElement(
-        'a',
-        { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
-        _react2.default.createElement('img', { className: 'contact-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'https://github.com/SCFlanagan', target: '_blank' },
-        _react2.default.createElement('img', { className: 'contact-logo', src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5sI1s4_YLs5DLf6ETpKdXNFl700fVMHMlYulnjhOmWsg6NU-C' })
-      ),
-      _react2.default.createElement(
-        'a',
-        { href: 'mailto:SusanFlanagan7@gmail.com' },
-        _react2.default.createElement('img', { className: 'contact-logo', src: 'http://www.freeiconspng.com/uploads/email-icon-23.png' })
-      )
-    ),
-    _react2.default.createElement(
-      _reactRouter.Link,
-      { to: 'https://github.com/SCFlanagan/Personal-Website' },
+      'a',
+      { target: 'blank', href: 'https://github.com/SCFlanagan/Personal-Website' },
       _react2.default.createElement(
         'p',
         { className: 'created' },
@@ -13440,6 +13422,10 @@ var _react2 = _interopRequireDefault(_react);
 var _reactBootstrap = __webpack_require__(69);
 
 var _reactRouter = __webpack_require__(42);
+
+var _Logos = __webpack_require__(618);
+
+var _Logos2 = _interopRequireDefault(_Logos);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -13503,7 +13489,7 @@ var MyNavbar = function (_React$Component) {
                         null,
                         _react2.default.createElement(
                             'a',
-                            { className: 'nav', href: 'http://susanflanagan.herokuapp.com/home#top' },
+                            { className: 'nav', href: '/home#top' },
                             'SUSAN FLANAGAN'
                         )
                     ),
@@ -13517,23 +13503,16 @@ var MyNavbar = function (_React$Component) {
                         { pullRight: true },
                         _react2.default.createElement(
                             _reactBootstrap.NavItem,
-                            { className: 'nav', eventKey: 1, onClick: function onClick() {
-                                    _this2.routeTo();
-                                }, href: 'http://susanflanagan.herokuapp.com/home#top' },
-                            'HOME'
-                        ),
-                        _react2.default.createElement(
-                            _reactBootstrap.NavItem,
                             { className: 'nav', eventKey: 2, onClick: function onClick() {
                                     _this2.routeTo();
-                                }, href: 'http://susanflanagan.herokuapp.com/home#about' },
+                                }, href: '/home#about' },
                             'ABOUT'
                         ),
                         _react2.default.createElement(
                             _reactBootstrap.NavItem,
                             { className: 'nav', eventKey: 3, onClick: function onClick() {
                                     _this2.routeTo();
-                                }, href: 'http://susanflanagan.herokuapp.com/home#portfolio' },
+                                }, href: '/home#portfolio' },
                             'PORTFOLIO'
                         ),
                         _react2.default.createElement(
@@ -22163,7 +22142,7 @@ exports.default = function (props) {
   return _react2.default.createElement(
     'div',
     null,
-    _react2.default.createElement(_Navbar2.default, null),
+    _react2.default.createElement(_ContactNavbar2.default, null),
     _react2.default.createElement(_ContactHeader2.default, null),
     _react2.default.createElement(_ContactPage2.default, null),
     _react2.default.createElement(_ContactFooter2.default, null)
@@ -22174,9 +22153,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Navbar = __webpack_require__(164);
+var _ContactNavbar = __webpack_require__(617);
 
-var _Navbar2 = _interopRequireDefault(_Navbar);
+var _ContactNavbar2 = _interopRequireDefault(_ContactNavbar);
 
 var _ContactHeader = __webpack_require__(285);
 
@@ -23136,8 +23115,8 @@ exports.default = function (props) {
     'div',
     { id: 'contact-footer' },
     _react2.default.createElement(
-      _reactRouter.Link,
-      { to: 'https://github.com/SCFlanagan/Personal-Website' },
+      'a',
+      { target: 'blank', href: 'https://github.com/SCFlanagan/Personal-Website' },
       _react2.default.createElement(
         'p',
         { className: 'contact-created' },
@@ -23236,6 +23215,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouter = __webpack_require__(42);
 
+var _Logos = __webpack_require__(618);
+
+var _Logos2 = _interopRequireDefault(_Logos);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -23258,7 +23241,7 @@ var ContactPage = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                null,
+                { id: 'contact-content' },
                 _react2.default.createElement(
                     'a',
                     { className: 'btn', href: '/resume', target: 'blank' },
@@ -23269,25 +23252,7 @@ var ContactPage = function (_React$Component) {
                     { id: 'contact-text' },
                     'Interested in working with me? Check out my GitHub and connect with me through LinkedIn or email!'
                 ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'logos' },
-                    _react2.default.createElement(
-                        'a',
-                        { href: 'https://github.com/SCFlanagan', target: '_blank' },
-                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5sI1s4_YLs5DLf6ETpKdXNFl700fVMHMlYulnjhOmWsg6NU-C' })
-                    ),
-                    _react2.default.createElement(
-                        'a',
-                        { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
-                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
-                    ),
-                    _react2.default.createElement(
-                        'a',
-                        { href: 'mailto:SusanFlanagan7@gmail.com' },
-                        _react2.default.createElement('img', { className: 'contact-page-logo', src: 'http://www.freeiconspng.com/uploads/email-icon-23.png' })
-                    )
-                )
+                _react2.default.createElement(_Logos2.default, null)
             );
         }
     }]);
@@ -23417,9 +23382,6 @@ exports.default = function () {
 };
 
 // Add a sentence in my bio about goals, how i want to gain experience and knowledge. Make more goal-oriented.
-// Add links to portfolio and about when you are on contact page
-// send email with form
-// Restyle project buttons (& first projects are cut off)
 // Review game descriptions
 
 /***/ }),
@@ -23479,7 +23441,7 @@ var MyNavbar = function (_React$Component) {
                     title: 'Where in the World',
                     firstPicId: 'wiw-pic1',
                     secondPicId: 'wiw-pic2',
-                    firstP: 'A solo project, this application is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.',
+                    firstP: 'This is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API. This was a solo project.',
                     secondP: 'Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap',
                     firstLink: 'https://where-in-world.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Where-in-the-World',
@@ -23501,7 +23463,7 @@ var MyNavbar = function (_React$Component) {
                     title: 'Rummy',
                     firstPicId: 'r-pic1',
                     secondPicId: 'r-pic2',
-                    firstP: 'Play a game of rummy! In this solo project, I replicated the classic card game and built an AI player to play against.',
+                    firstP: 'This project is a recreation of the classic card game Rummy. It features an AI player to play against, a hand of cards that can be dragged and sorted, and a scoreboard that keeps track of multiple rounds. This was a solo project.',
                     secondP: 'Created with Node, Express, React, Redux, HTML, CSS, Bootstrap.',
                     firstLink: 'https://gametown.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Rummy',
@@ -23556,7 +23518,6 @@ var Project = function (_Component) {
     _createClass(Project, [{
         key: 'render',
         value: function render() {
-
             return _react2.default.createElement(
                 'div',
                 { className: 'projects' },
@@ -23622,45 +23583,6 @@ var Project = function (_Component) {
 
     return Project;
 }(_react.Component);
-
-/*
-<div className='projects'>
-                {this.props.picsLeft ? 
-                    <div>
-                        <Col lg={6} md={6}>        
-                            <div id={this.props.firstPicId} className='screenshots'></div>
-                            <div id={this.props.secondPicId} className='screenshots'></div>
-                        </Col>
-                        <Col lg={1} md={1}></Col>
-                        <Col lg={5} md={5}>
-                            <h3 className='pt project-head'>{this.props.title}</h3>
-                            <p className='reg project-item'>{this.props.firstP}</p>
-                            <p className='reg project-item'>{this.props.secondP}</p>
-                            <a className='site link' href={this.props.firstLink} target="_blank">Play the Game</a>
-                            <span className='reg'> | </span>
-                            <a className='code link' href={this.props.secondLink} target="_blank">View Code</a>
-                        </Col>
-                    </div>
-                :
-                    <div>
-                        <Col lg={5} md={5}>
-                            <h3 className='pt project-head'>{this.props.title}</h3>
-                            <p className='reg project-item'>{this.props.firstP}</p>
-                            <p className='reg project-item'>{this.props.secondP}</p>
-                            <a className='site link' href={this.props.firstLink} target="_blank">Play the Game</a>
-                            <span className='reg'> | </span>
-                            <a className='code link' href={this.props.secondLink} target="_blank">View Code</a>
-                        </Col>
-                        <Col lg={1} md={1}></Col>
-                        <Col lg={6} md={6}>        
-                            <div id={this.props.firstPicId} className='screenshots'></div>
-                            <div id={this.props.secondPicId} className='screenshots'></div>
-                        </Col>
-                    </div>
-                }
-            </div>
-            */
-
 
 exports.default = Project;
 
@@ -54416,6 +54338,147 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _Resume2.default })
   )
 ), document.getElementById('main'));
+
+/***/ }),
+/* 617 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(544);
+
+var _reactBootstrap = __webpack_require__(69);
+
+var _reactRouter = __webpack_require__(42);
+
+var _auth = __webpack_require__(292);
+
+var _reactRouterBootstrap = __webpack_require__(548);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ContactNavbar = function (_React$Component) {
+    _inherits(ContactNavbar, _React$Component);
+
+    function ContactNavbar(props) {
+        _classCallCheck(this, ContactNavbar);
+
+        return _possibleConstructorReturn(this, (ContactNavbar.__proto__ || Object.getPrototypeOf(ContactNavbar)).call(this, props));
+    }
+
+    _createClass(ContactNavbar, [{
+        key: 'render',
+        value: function render() {
+            var _this2 = this;
+
+            return _react2.default.createElement(
+                _reactBootstrap.Navbar,
+                { inverse: true, collapseOnSelect: true },
+                _react2.default.createElement(
+                    _reactBootstrap.Navbar.Header,
+                    null,
+                    _react2.default.createElement(
+                        _reactBootstrap.Navbar.Brand,
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { className: 'nav', href: '/home' },
+                            'SUSAN FLANAGAN'
+                        )
+                    ),
+                    _react2.default.createElement(_reactBootstrap.Navbar.Toggle, null)
+                ),
+                _react2.default.createElement(
+                    _reactBootstrap.Navbar.Collapse,
+                    null,
+                    _react2.default.createElement(
+                        _reactBootstrap.Nav,
+                        { pullRight: true },
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
+                            { className: 'nav', eventKey: 1, onClick: function onClick() {
+                                    _this2.routeTo();
+                                }, href: '/home' },
+                            'HOME'
+                        )
+                    )
+                )
+            );
+        }
+    }]);
+
+    return ContactNavbar;
+}(_react2.default.Component);
+
+exports.default = ContactNavbar;
+
+/***/ }),
+/* 618 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+exports.default = function (props) {
+    return _react2.default.createElement(
+        'div',
+        { className: 'logos' },
+        _react2.default.createElement(
+            'div',
+            { className: 'logo-box' },
+            _react2.default.createElement(
+                'a',
+                { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
+                _react2.default.createElement('img', { className: 'contact-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'logo-box' },
+            _react2.default.createElement(
+                'a',
+                { href: 'https://github.com/SCFlanagan', target: '_blank' },
+                _react2.default.createElement('img', { className: 'contact-logo', src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT5sI1s4_YLs5DLf6ETpKdXNFl700fVMHMlYulnjhOmWsg6NU-C' })
+            )
+        ),
+        _react2.default.createElement(
+            'div',
+            { className: 'logo-box' },
+            _react2.default.createElement(
+                'a',
+                { href: 'mailto:SusanFlanagan7@gmail.com' },
+                _react2.default.createElement('img', { className: 'contact-logo', src: 'http://www.freeiconspng.com/uploads/email-icon-23.png' })
+            )
+        )
+    );
+};
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ })
 /******/ ]);

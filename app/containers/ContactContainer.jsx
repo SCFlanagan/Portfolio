@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import Navbar from '../components/Navbar';
+import ContactNavbar from '../components/ContactNavbar';
 import ContactHeader from '../components/ContactHeader';
 import ContactPage from '../components/ContactPage';
 import ContactFooter from '../components/ContactFooter';
@@ -10,7 +10,7 @@ export default function(props) {
 
     return (
       <div>
-        <Navbar />
+        <ContactNavbar />
         <ContactHeader /> 
         <ContactPage />    
         <ContactFooter /> 

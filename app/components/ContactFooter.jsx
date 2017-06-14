@@ -8,9 +8,9 @@ import { Link } from 'react-router';
 export default function(props) {
     return (
       <div id='contact-footer'>
-        <Link to='https://github.com/SCFlanagan/Personal-Website'>
+        <a target='blank' href='https://github.com/SCFlanagan/Personal-Website'>
           <p className='contact-created'>Site Created By: Susan Flanagan</p>
-        </Link>
+        </a>
       </div>
     )
 }
