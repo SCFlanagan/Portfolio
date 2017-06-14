@@ -41,9 +41,8 @@ export default () => {
                 <div className='projects' id='first-project'>
                     <Col lg={6} md={6}>
                         <h3 className='pt project-head'>Where in the World</h3>
-                        <p className='reg project-item'>A game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.</p>
+                        <p className='reg project-item'>A solo project, this application is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API.</p>
                         <p className='reg project-item'>Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap</p>
-                        <p className='reg project-item'>Solo Project</p>
                         <a className='site link' href='https://where-in-world.herokuapp.com' target="_blank">Play the Game</a>
                         <span className='reg'> | </span>
                         <a className='code link' href='https://github.com/SCFlanagan/Where-in-the-World' target="_blank">View the Code</a>

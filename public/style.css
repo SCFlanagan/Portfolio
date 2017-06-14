@@ -407,3 +407,72 @@ body {
     width: 55px;
     margin: 0 5%;
 }
+
+/* Portfolio */
+
+.projects {
+    width: 70%;
+    margin-bottom: 12vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: 75vh;
+    position: relative;
+    overflow: hidden;
+    color: #5fbec0;
+}
+
+.screenshots {
+    height: 35vh;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: 3%;
+    margin-bottom: 2vh;
+}
+
+#wiw-pic1 {
+    background-image: url('./pictures/wiwtitle.jpg');
+}
+
+#wiw-pic2 {
+    background-image: url('./pictures/wiwgame.jpg');
+}
+
+#r-pic1 {
+    background-image: url('./pictures/Rummypic1.jpg');
+}
+
+#r-pic2 {
+    background-image: url('./pictures/Rummypic2.jpg');
+}
+
+#nyu-pic1 {
+    background-image: url('./pictures/nyuboard.jpg');
+}
+
+#nyu-pic2 {
+    background-image: url('./pictures/nyubuy.jpg');
+}
+
+.project-head {
+    margin-top: 6vh;
+    margin-bottom: 8vh;
+}
+
+.site {
+    color: red;
+}
+
+.code {
+    color: orange;
+}
+
+.link {
+    font-size: 1.6rem;
+}
+
+.reg{
+    color: #303030;
+    font-size: 1.6rem;
+}
