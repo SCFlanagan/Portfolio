@@ -329,6 +329,10 @@ body {
 
 /* Contact Page */
 
+#contact-text {
+    font-size: 1.8rem;
+}
+
 .btn {
     background-color: #000;
     color: #fff;
@@ -341,14 +345,14 @@ body {
     letter-spacing: 3px;
 }
 
-#contact-text {
-    font-size: 1.8rem;
+.btn:hover {
+    background-color: #fff !important;;
+    color: #000 !important;
+    border: 1px solid #000!important;
 }
 
-.btn:hover {
-    background-color: #fff;
-    color: #000;
-    border: 1px solid #000;
+.btn:visited {
+    color: #fff;
 }
 
 /* Contact Footer */
