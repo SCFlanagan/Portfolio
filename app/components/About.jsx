@@ -5,7 +5,7 @@ export default () => {
         <div>
             <div id='about'></div>
             <div>
-                <h1>Hello</h1>
+                <h1>About Me</h1>
                 <div id='headshot'></div>
                 <div id='bio'>
                     <p>I am a <strong>full stack software engineer</strong> based in <strong>Brooklyn, NY</strong>. I have a degree in Wildlife Conservation from the <strong>University of Massachusetts Amherst</strong>. My passion and dedication to conservation has afforded me some amazing opportunities. </p><br></br>

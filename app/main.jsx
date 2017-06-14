@@ -1,20 +1,21 @@
-'use strict'
-import React from 'react'
-import {Router, Route, IndexRedirect, browserHistory} from 'react-router'
-import {render} from 'react-dom'
-import {connect, Provider} from 'react-redux'
-import store from './store'
+'use strict';
 
-import Home from './components/Home'
-import AppContainer from './containers/AppContainer'
+import React from 'react';
+import {Router, Route, IndexRedirect, browserHistory} from 'react-router';
+import {render} from 'react-dom';
+
+import Home from './components/Home';
+import AppContainer from './containers/AppContainer';
+import ContactContainer from './containers/ContactContainer';
 
 render (
-  <Provider store={store}>
-    <Router history={browserHistory}>
-      <Route path="/" component={AppContainer}>
-      </Route>
-    </Router>
-  </Provider>,
+  <Router history={browserHistory}>
+    <Route path='/'>
+      <IndexRedirect to='/home' />
+        <Route path='/home' component={AppContainer} />
+        <Route path='/contact' component={ContactContainer} />
+    </Route>
+  </Router>,
   document.getElementById('main')
 )
 
