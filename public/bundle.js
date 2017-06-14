@@ -13283,7 +13283,8 @@ exports.default = function () {
 // add use stricts
 // imbed resume
 // send email with form
-// Restyle project buttons
+// Restyle project buttons (& first projects are cut off)
+// Review game descriptions
 
 /***/ }),
 /* 161 */
@@ -23239,7 +23240,7 @@ var MyNavbar = function (_React$Component) {
                     { className: 'header-content' },
                     _react2.default.createElement(
                         'h1',
-                        { className: 'header-name' },
+                        { className: 'header-title' },
                         'Susan Flanagan'
                     ),
                     _react2.default.createElement(
@@ -23694,10 +23695,10 @@ var MyNavbar = function (_React$Component) {
         value: function render() {
             return _react2.default.createElement(
                 'div',
-                { id: 'portfolio' },
+                null,
                 _react2.default.createElement(
                     'div',
-                    { className: 'banner' },
+                    { className: 'banner', id: 'portfolio' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'banner-title' },
@@ -23939,7 +23940,7 @@ var MyNavbar = function (_React$Component) {
                 null,
                 _react2.default.createElement(
                     'div',
-                    { className: 'banner' },
+                    { className: 'banner', id: 'skills' },
                     _react2.default.createElement(
                         'h1',
                         { className: 'banner-title' },
@@ -54649,7 +54650,11 @@ var ContactHeader = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'header-content' },
-                    _react2.default.createElement('h1', { className: 'header-title' })
+                    _react2.default.createElement(
+                        'h1',
+                        { className: 'contact-title' },
+                        'Contact Me'
+                    )
                 )
             );
         }

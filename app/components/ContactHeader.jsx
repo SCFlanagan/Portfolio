@@ -9,7 +9,7 @@ export default class ContactHeader extends React.Component {
         return (
             <div id='contact-header' className='header'>
                 <div className='header-content'>
-                    <h1 className='header-title'></h1>
+                    <h1 className='contact-title'>Contact Me</h1>
                 </div>
             </div>
         )

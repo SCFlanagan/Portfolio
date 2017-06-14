@@ -5,7 +5,7 @@ export default class MyNavbar extends React.Component {
     render() {
         return (
             <div>
-                <div className='banner'>
+                <div className='banner' id='skills'>
                     <h1 className='banner-title'>SKILLS</h1>
                 </div>
                 <h3 className='tech-title'>PROFICIENT</h3>

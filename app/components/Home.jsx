@@ -24,4 +24,5 @@ export default () => {
 // add use stricts
 // imbed resume
 // send email with form
-// Restyle project buttons
+// Restyle project buttons (& first projects are cut off)
+// Review game descriptions
