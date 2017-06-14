@@ -3,8 +3,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, FormGroup, FormControl, Button } from 'react-bootstrap'
-import { Route, RouteHandler, Link } from 'react-router'
-import { logout } from '../reducers/auth'
+import { Route, RouteHandler, Link } from 'react-router'\
 import { LinkContainer } from 'react-router-bootstrap'
 
 export default class MyNavbar extends React.Component {
