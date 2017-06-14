@@ -161,7 +161,7 @@ body {
 .contact-page-logo {
     height: 60px;
     width: 60px;
-    margin: 0 2%;
+    margin: 2% 2%;
     border-radius: 60px;
 }
 
@@ -322,4 +322,10 @@ body {
 .contact-created:hover {
     color: #4eb9e6 !important;
     text-decoration: none !important;
+}
+
+/* Resume */
+
+#resume-container {
+    width: 100%;
 }

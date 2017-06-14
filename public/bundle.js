@@ -54504,9 +54504,9 @@ var _reactRouter = __webpack_require__(96);
 
 var _reactDom = __webpack_require__(21);
 
-var _Home = __webpack_require__(160);
+var _Resume = __webpack_require__(628);
 
-var _Home2 = _interopRequireDefault(_Home);
+var _Resume2 = _interopRequireDefault(_Resume);
 
 var _AppContainer = __webpack_require__(266);
 
@@ -54526,7 +54526,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
     { path: '/' },
     _react2.default.createElement(_reactRouter.IndexRedirect, { to: '/home' }),
     _react2.default.createElement(_reactRouter.Route, { path: '/home', component: _AppContainer2.default }),
-    _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _ContactContainer2.default })
+    _react2.default.createElement(_reactRouter.Route, { path: '/contact', component: _ContactContainer2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/resume', component: _Resume2.default })
   )
 ), document.getElementById('main'));
 
@@ -54751,6 +54752,33 @@ var ContactPage = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = ContactPage;
+
+/***/ }),
+/* 628 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+exports.default = function () {
+    return _react2.default.createElement(
+        'div',
+        { id: 'resume-container' },
+        _react2.default.createElement('iframe', { width: '90%', height: '800', src: 'https://www.docdroid.net/KiuWNgM/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
+    );
+};
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactBootstrap = __webpack_require__(68);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ })
 /******/ ]);

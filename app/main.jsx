@@ -4,7 +4,7 @@ import React from 'react';
 import {Router, Route, IndexRedirect, browserHistory} from 'react-router';
 import {render} from 'react-dom';
 
-import Home from './components/Home';
+import Resume from './components/Resume';
 import AppContainer from './containers/AppContainer';
 import ContactContainer from './containers/ContactContainer';
 
@@ -14,6 +14,7 @@ render (
       <IndexRedirect to='/home' />
         <Route path='/home' component={AppContainer} />
         <Route path='/contact' component={ContactContainer} />
+        <Route path='/resume' component={Resume} />
     </Route>
   </Router>,
   document.getElementById('main')
