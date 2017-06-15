@@ -1,1 +1,1 @@
-A portfolio featuring a responsive design, a section about me, projects, and contact information.
+A portfolio that features a responsive design and llnks to my projects, code, and contact information. It was created using JavaScript, Node, Express, React, HTML, CSS, and React-Bootstrap.
