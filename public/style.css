@@ -38,6 +38,7 @@ body {
     font-size: 12rem !important;
     color: #fff !important;
     padding: 12vh 0;
+    text-shadow: 2px 2px gray;
 }
 
 /* Header */
@@ -313,7 +314,14 @@ body {
     margin-top: -1px;
 }
 
-/* Contact Header */
+/* Contact */
+
+#contact {
+    margin-top: 20vh;
+    background-image: url('https://images.pexels.com/photos/30360/pexels-photo-30360.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-size: cover;
+    background-position: bottom;
+}
 
 #contact-header {
     background-image: url('https://images.pexels.com/photos/30360/pexels-photo-30360.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
@@ -326,8 +334,6 @@ body {
     margin-top: 78vh;
     color: #fff;
 }
-
-/* Contact Page */
 
 #contact-text {
     font-size: 1.8rem;
@@ -354,8 +360,6 @@ body {
 .btn:visited {
     color: #fff;
 }
-
-/* Contact Footer */
 
 #contact-footer {
     width: 100%;

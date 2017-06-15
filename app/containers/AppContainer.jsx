@@ -10,8 +10,7 @@ export default function(props) {
     return (
       <div id='body'>
         <Navbar />
-        <Home /> 
-        <Footer />     
+        <Home />     
       </div>
     )
 

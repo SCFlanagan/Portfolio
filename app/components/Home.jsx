@@ -4,6 +4,7 @@ import Header from './Header';
 import Portfolio from './Portfolio';
 import Skills from './Skills';
 import Footer from './Footer';
+import ContactHeader from './ContactHeader';
 
 export default () => {
 
@@ -13,6 +14,7 @@ export default () => {
         <About />
         <Skills />
         <Portfolio />
+        <ContactHeader />
     </div>
   )
 }
