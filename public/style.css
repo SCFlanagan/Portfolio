@@ -260,6 +260,10 @@ body {
     font-size: 1.6rem;
 }
 
+.lg {
+    font-size: 2rem;
+}
+
 /* Logos */
 
 .logos {
@@ -290,7 +294,7 @@ body {
 /* Contact */
 
 #contact {
-    margin-top: 15vh;
+    margin-top: 20vh;
     background-image: url('https://images.pexels.com/photos/30360/pexels-photo-30360.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
     background-size: cover;
     background-position: bottom;
@@ -311,7 +315,6 @@ body {
 #contact-text {
     font-size: 1.8rem;
     margin: 0 20%;
-    padding: 1vh 0;
 }
 
 .btn {

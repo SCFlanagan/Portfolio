@@ -22,7 +22,7 @@ export default class Project extends Component {
                         <p className='reg project-item'>{this.props.secondP}</p>
                         <br></br>
                         <a className='site link' href={this.props.firstLink} target="_blank"><strong>Play the Game</strong></a>
-                        <span className='reg'> | </span>
+                        <span className='lg'> | </span>
                         <a className='code link' href={this.props.secondLink} target="_blank"><strong>View Code</strong></a>
                     </div>
                 </div>

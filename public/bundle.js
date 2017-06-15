@@ -21969,7 +21969,7 @@ var Project = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'span',
-                            { className: 'reg' },
+                            { className: 'lg' },
                             ' | '
                         ),
                         _react2.default.createElement(
