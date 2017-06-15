@@ -310,6 +310,8 @@ body {
 
 #contact-text {
     font-size: 1.8rem;
+    margin: 0 20%;
+    padding: 1vh 0;
 }
 
 .btn {

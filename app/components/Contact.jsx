@@ -14,7 +14,7 @@ export default class Contact extends React.Component {
                 </div>
                 <div id='contact-content'>
                     <a className='btn' href='/resume' target='blank'>Resume</a>
-                    <p id='contact-text'>Interested in working with me? Check out my GitHub and connect with me through LinkedIn or email!</p>
+                    <p id='contact-text'>Interested in working with me? Check out my GitHub and connect with me through LinkedIn or email at SusanFlanagan7@gmail.com!</p>
                     <Logos />
                 </div>
             </div>
