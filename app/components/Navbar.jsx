@@ -17,7 +17,7 @@ export default class MyNavbar extends React.Component {
         <Navbar inverse collapseOnSelect>
             <Navbar.Header>
             <Navbar.Brand>
-                <a className='nav' href="/home#top">SUSAN FLANAGAN</a>
+                <a className='nav' href="/#top">SUSAN FLANAGAN</a>
             </Navbar.Brand>
             <Navbar.Toggle />
             </Navbar.Header>
@@ -25,7 +25,7 @@ export default class MyNavbar extends React.Component {
             <Nav pullRight>
                 <NavItem className='nav' eventKey={2} onClick={() => {this.routeTo()}} href='/home#about'>ABOUT</NavItem>
                 <NavItem className='nav' eventKey={3} onClick={() => {this.routeTo()}}href='/home#portfolio'>PORTFOLIO</NavItem>
-                <NavItem className='nav' eventKey={4} href="/contact" onClick={() => {this.routeTo()}}>CONTACT</NavItem>
+                <NavItem className='nav' eventKey={4} href="/home#contact" onClick={() => {this.routeTo()}}>CONTACT</NavItem>
             </Nav>
             </Navbar.Collapse>
         </Navbar>

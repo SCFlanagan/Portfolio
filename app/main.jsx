@@ -6,14 +6,12 @@ import {render} from 'react-dom';
 
 import Resume from './components/Resume';
 import AppContainer from './containers/AppContainer';
-import ContactContainer from './containers/ContactContainer';
 
 render (
   <Router history={browserHistory}>
-    <Route path='/'>
+    <Route path='/' >
       <IndexRedirect to='/home' />
         <Route path='/home' component={AppContainer} />
-        <Route path='/contact' component={ContactContainer} />
         <Route path='/resume' component={Resume} />
     </Route>
   </Router>,
