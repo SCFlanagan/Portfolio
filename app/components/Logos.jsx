@@ -7,7 +7,7 @@ export default function(props) {
         <div className='logos'>
 
             <div className='logo-box'>
-                <a href='https://www.linkedin.com/in/susan-flanagan-05b26a139/' target='_blank'><img className='contact-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png'/></a>
+                <a href='https://www.linkedin.com/in/SCFlanagan/' target='_blank'><img className='contact-logo' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png'/></a>
             </div>
 
             <div className='logo-box'>

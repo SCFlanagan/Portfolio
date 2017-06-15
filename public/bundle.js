@@ -12777,7 +12777,7 @@ exports.default = function (props) {
             { className: 'logo-box' },
             _react2.default.createElement(
                 'a',
-                { href: 'https://www.linkedin.com/in/susan-flanagan-05b26a139/', target: '_blank' },
+                { href: 'https://www.linkedin.com/in/SCFlanagan/', target: '_blank' },
                 _react2.default.createElement('img', { className: 'contact-logo', src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png' })
             )
         ),
