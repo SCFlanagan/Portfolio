@@ -33,6 +33,7 @@ export default class MyNavbar extends React.Component {
                     <h5 className='tech'>Socket.io</h5>
                     <h5 className='tech'>Mocha</h5>
                     <h5 className='tech'>Jasmine</h5>
+                    <h5 className='tech'>Webpack</h5>
                 </div>
             </div>
         )

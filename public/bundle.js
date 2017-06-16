@@ -21293,7 +21293,7 @@ exports.default = function () {
     return _react2.default.createElement(
         'div',
         { id: 'resume-container' },
-        _react2.default.createElement('iframe', { width: '90%', height: '800', src: 'https://www.docdroid.net/82tvfek/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
+        _react2.default.createElement('iframe', { width: '800', height: '600', src: 'https://www.docdroid.net/Ycf6med/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
     );
 };
 
@@ -21765,6 +21765,13 @@ var MyNavbar = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             _reactBootstrap.NavItem,
+                            { className: 'nav', eventKey: 4, href: '/home#skills', onClick: function onClick() {
+                                    _this2.routeTo();
+                                } },
+                            'SKILLS'
+                        ),
+                        _react2.default.createElement(
+                            _reactBootstrap.NavItem,
                             { className: 'nav', eventKey: 3, onClick: function onClick() {
                                     _this2.routeTo();
                                 }, href: '/home#portfolio' },
@@ -22143,6 +22150,11 @@ var MyNavbar = function (_React$Component) {
                         'h5',
                         { className: 'tech' },
                         'Jasmine'
+                    ),
+                    _react2.default.createElement(
+                        'h5',
+                        { className: 'tech' },
+                        'Webpack'
                     )
                 )
             );
