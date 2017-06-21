@@ -22109,12 +22109,22 @@ var MyNavbar = function (_React$Component) {
                     _react2.default.createElement(
                         'h5',
                         { className: 'tech' },
+                        'jQuery'
+                    ),
+                    _react2.default.createElement(
+                        'h5',
+                        { className: 'tech' },
                         'Bootstrap'
                     ),
                     _react2.default.createElement(
                         'h5',
                         { className: 'tech' },
                         'Git'
+                    ),
+                    _react2.default.createElement(
+                        'h5',
+                        { className: 'tech' },
+                        'AJAX'
                     )
                 ),
                 _react2.default.createElement(
@@ -22125,11 +22135,6 @@ var MyNavbar = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { className: 'tech-section' },
-                    _react2.default.createElement(
-                        'h5',
-                        { className: 'tech' },
-                        'jQuery'
-                    ),
                     _react2.default.createElement(
                         'h5',
                         {
@@ -22155,6 +22160,11 @@ var MyNavbar = function (_React$Component) {
                         'h5',
                         { className: 'tech' },
                         'Webpack'
+                    ),
+                    _react2.default.createElement(
+                        'h5',
+                        { className: 'tech' },
+                        'JSON'
                     )
                 )
             );

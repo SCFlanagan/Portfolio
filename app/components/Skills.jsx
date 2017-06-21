@@ -22,18 +22,20 @@ export default class MyNavbar extends React.Component {
                     <h5 className='tech'>HTML</h5>
                     <h5 className='tech'>CSS</h5>
                     <h5 className='tech'>SASS/SCSS</h5>
+                    <h5 className='tech'>jQuery</h5>
                     <h5 className='tech'>Bootstrap</h5>
                     <h5 className='tech'>Git</h5>
+                    <h5 className='tech'>AJAX</h5>
                 </div>
                 <h3 className='tech-title'>KNOWLEDGEABLE</h3>
                 <div className='tech-section'>
-                    <h5 className='tech'>jQuery</h5>
                     <h5
                     className='tech'>Firebase</h5>
                     <h5 className='tech'>Socket.io</h5>
                     <h5 className='tech'>Mocha</h5>
                     <h5 className='tech'>Jasmine</h5>
                     <h5 className='tech'>Webpack</h5>
+                    <h5 className='tech'>JSON</h5>
                 </div>
             </div>
         )
