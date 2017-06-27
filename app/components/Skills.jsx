@@ -12,7 +12,7 @@ export default class MyNavbar extends React.Component {
                 </div>
                 <h3 className='tech-title'>PROFICIENT</h3>
                 <div className='tech-section'>
-                    <h5 className='tech'>JavaScript</h5>
+                    <h5 className='tech'>JavaScript (& ES6)</h5>
                     <h5 className='tech'>Node</h5>
                     <h5 className='tech'>Express</h5>
                     <h5 className='tech'>React</h5>
@@ -26,6 +26,7 @@ export default class MyNavbar extends React.Component {
                     <h5 className='tech'>Bootstrap</h5>
                     <h5 className='tech'>Git</h5>
                     <h5 className='tech'>AJAX</h5>
+                    <h5 className='tech'>Babel</h5>
                 </div>
                 <h3 className='tech-title'>KNOWLEDGEABLE</h3>
                 <div className='tech-section'>

@@ -12732,7 +12732,7 @@ exports.default = function (props) {
         { className: 'footer' },
         _react2.default.createElement(
             'a',
-            { target: 'blank', href: 'https://github.com/SCFlanagan/Personal-Website' },
+            { target: 'blank', href: 'https://github.com/SCFlanagan/Portfolio' },
             _react2.default.createElement(
                 'p',
                 { className: 'contact-created' },
@@ -21293,7 +21293,7 @@ exports.default = function () {
     return _react2.default.createElement(
         'div',
         { id: 'resume-container' },
-        _react2.default.createElement('iframe', { width: '800', height: '600', src: 'https://www.docdroid.net/h2gxM9D/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
+        _react2.default.createElement('iframe', { width: '800', height: '600', src: 'https://www.docdroid.net/ZaerE3g/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
     );
 };
 
@@ -21853,7 +21853,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'wiw-pic1',
                     secondPicId: 'wiw-pic2',
                     firstP: 'This is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API. This was a solo project.',
-                    secondP: 'Created with Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, React-Bootstrap, and the Google Maps API.',
+                    secondP: 'Created with JavaScript (ES6), Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap, Webpack, Babel, AJAX, and the Google Maps API.',
                     firstLink: 'https://where-in-world.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Where-in-the-World',
                     class1: 'left project-section',
@@ -21864,7 +21864,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'nyu-pic1',
                     secondPicId: 'nyu-pic2',
                     firstP: 'Try to build the biggest city with this group project that reimagined the card game Machi Koro as a web application. Play up to three friends over the internet with this real-time, multiplayer game.',
-                    secondP: 'Created with Node, Express, React, Redux, PostgreSQL, Sequelize, Firebase, HTML, SCSS, React-Bootstrap.',
+                    secondP: 'Created with JavaScript (ES6), Node, Express, React, Redux, PostgreSQL, Sequelize, Firebase, HTML, SCSS, Bootstrap, Webpack, Babel, and AJAX. Tests written in Mocha.',
                     firstLink: 'http://nyuyoku.herokuapp.com',
                     secondLink: 'https://github.com/nyuyoku',
                     class1: 'right project-section',
@@ -21875,7 +21875,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'r-pic1',
                     secondPicId: 'r-pic2',
                     firstP: 'This project is a recreation of the classic card game Rummy. It features an AI player to play against, a hand of cards that can be dragged and sorted, and a scoreboard that keeps track of multiple rounds. This was a solo project.',
-                    secondP: 'Created with Node, Express, React, HTML, CSS, Bootstrap.',
+                    secondP: 'Created with JavaScript (ES6), Node, Express, React, HTML, CSS, Bootstrap, Webpack, Babel.',
                     firstLink: 'https://gametown.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Rummy',
                     class1: 'left project-section',
@@ -22059,7 +22059,7 @@ var MyNavbar = function (_React$Component) {
                     _react2.default.createElement(
                         'h5',
                         { className: 'tech' },
-                        'JavaScript'
+                        'JavaScript (& ES6)'
                     ),
                     _react2.default.createElement(
                         'h5',
@@ -22125,6 +22125,11 @@ var MyNavbar = function (_React$Component) {
                         'h5',
                         { className: 'tech' },
                         'AJAX'
+                    ),
+                    _react2.default.createElement(
+                        'h5',
+                        { className: 'tech' },
+                        'Babel'
                     )
                 ),
                 _react2.default.createElement(
