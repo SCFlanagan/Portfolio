@@ -25,7 +25,6 @@ export default class MyNavbar extends React.Component {
                     <h5 className='tech'>jQuery</h5>
                     <h5 className='tech'>Bootstrap</h5>
                     <h5 className='tech'>Git</h5>
-                    <h5 className='tech'>AJAX</h5>
                     <h5 className='tech'>Babel</h5>
                 </div>
                 <h3 className='tech-title'>KNOWLEDGEABLE</h3>
@@ -36,7 +35,6 @@ export default class MyNavbar extends React.Component {
                     <h5 className='tech'>Mocha</h5>
                     <h5 className='tech'>Jasmine</h5>
                     <h5 className='tech'>Webpack</h5>
-                    <h5 className='tech'>JSON</h5>
                     <h5 className='tech'>Photoshop</h5>
                 </div>
             </div>
