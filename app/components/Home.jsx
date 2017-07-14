@@ -12,7 +12,6 @@ export default () => {
     <div>
         <Header />
         <About />
-        <Skills />
         <Portfolio />
         <Contact />
     </div>

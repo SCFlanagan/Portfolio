@@ -24,7 +24,6 @@ export default class MyNavbar extends React.Component {
             <Navbar.Collapse>
             <Nav pullRight>
                 <NavItem className='nav' eventKey={2} onClick={() => {this.routeTo()}} href='/home#about'>ABOUT</NavItem>
-                <NavItem className='nav' eventKey={4} href="/home#skills" onClick={() => {this.routeTo()}}>SKILLS</NavItem>
                 <NavItem className='nav' eventKey={3} onClick={() => {this.routeTo()}}href='/home#portfolio'>PORTFOLIO</NavItem>
                 <NavItem className='nav' eventKey={4} href="/home#contact" onClick={() => {this.routeTo()}}>CONTACT</NavItem>
             </Nav>

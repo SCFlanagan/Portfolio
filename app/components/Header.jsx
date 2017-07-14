@@ -12,6 +12,7 @@ export default class MyNavbar extends React.Component {
                     <h1 className='header-title'>Susan Flanagan</h1>
                     <h2>Sofware Engineer</h2>
                     <a id='view-work' href="#portfolio">View Work</a>
+                    {/*<p id="arrow">▼</p>*/}
                 </div>
             </div>
         )

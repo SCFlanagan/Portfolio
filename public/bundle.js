@@ -21293,7 +21293,7 @@ exports.default = function () {
     return _react2.default.createElement(
         'div',
         { id: 'resume-container' },
-        _react2.default.createElement('iframe', { width: '800', height: '600', src: 'https://www.docdroid.net/ZaerE3g/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
+        _react2.default.createElement('iframe', { width: '800', height: '600', src: 'https://www.docdroid.net/k4LEbQl/susanflanaganresume.pdf.html', frameborder: '0', allowfullscreen: true })
     );
 };
 
@@ -21381,7 +21381,7 @@ exports.default = function () {
                 { id: 'bio' },
                 _react2.default.createElement(
                     'p',
-                    null,
+                    { className: 'about-para' },
                     'I am a ',
                     _react2.default.createElement(
                         'strong',
@@ -21394,39 +21394,42 @@ exports.default = function () {
                         null,
                         'Brooklyn, NY'
                     ),
-                    '. I have a degree in Wildlife Conservation from the ',
-                    _react2.default.createElement(
-                        'strong',
-                        null,
-                        'University of Massachusetts Amherst'
-                    ),
-                    '. My passion and dedication to conservation has afforded me some amazing opportunities. '
+                    '. I have a background in Wildlife Conservation, which has afforded me some amazing opportunities. I have had the chance to dodge fruit being thrown at me by endangered red uakari monkeys and fished for piranha in the Amazon jungle. '
                 ),
-                _react2.default.createElement('br', null),
                 _react2.default.createElement(
                     'p',
-                    null,
-                    'I\u2019ve had the chance to dodge fruit being thrown at me by endangered red uakari monkeys in the Amazon jungle, to induce a caiman to regurgitate its food so I could study its diet, and to traverse a stream, waders pulled up to my waist, sending electric shocks through the water to stun fish so I could record their measurements and take blood samples.'
+                    { className: 'about-para' },
+                    'While I am still passionate about conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.'
                 ),
-                _react2.default.createElement('br', null),
                 _react2.default.createElement(
                     'p',
-                    null,
-                    'While I am still dedicated to conservation, over the last couple of years a new passion has ignited in me to code. I am addicted to the problem-solving, the perpetual learning, and the satisfaction gleaned from creating something from nothing. I am excited by the ever-changing landscape of tech, the never-ending supply of things to learn, and, most of all, by its potential to positively change the world. This new passion has afforded me its own exciting experiences, like the high I felt when I lost a game of Yahtzee to an AI player I had built.'
-                ),
-                _react2.default.createElement('br', null),
-                _react2.default.createElement(
-                    'p',
-                    null,
+                    { className: 'about-para' },
                     'I formalized my interest in code by attending ',
                     _react2.default.createElement(
                         'strong',
                         null,
                         'Fullstack Academy'
                     ),
-                    ' in New York City. Although I am primarily a JavaScript developer, I am eager and willing to learn new languages and frameworks. I particularly enjoy writing game logic and creating intuitive and innovative user interfaces. I am looking to expand and improve my skills in a developer position at a company that cares about giving back to the community. Please send me an email if you would like to connect!'
+                    ' in New York City. While I enjoy full stack development, I have a special interest in crafting user experiences on the front end, with special attention paid to responsive design and intuitive usability. I also enjoy building games, especially writing the game logic and creating AI players.'
                 ),
-                _react2.default.createElement('br', null)
+                _react2.default.createElement('br', null),
+                _react2.default.createElement(
+                    'p',
+                    null,
+                    _react2.default.createElement(
+                        'strong',
+                        null,
+                        'Proficient:'
+                    ),
+                    ' JavaScript, Node, Express, React, Redux, PostgreSQL, MongoDB, HTML, CSS, SASS, jQuery',
+                    _react2.default.createElement('br', null),
+                    _react2.default.createElement(
+                        'strong',
+                        null,
+                        'Knowledgeable:'
+                    ),
+                    ' Angular, Firebase, Mocha, Jasmine, Webpack'
+                )
             )
         )
     );
@@ -21629,7 +21632,6 @@ exports.default = function () {
     null,
     _react2.default.createElement(_Header2.default, null),
     _react2.default.createElement(_About2.default, null),
-    _react2.default.createElement(_Skills2.default, null),
     _react2.default.createElement(_Portfolio2.default, null),
     _react2.default.createElement(_Contact2.default, null)
   );
@@ -21765,13 +21767,6 @@ var MyNavbar = function (_React$Component) {
                         ),
                         _react2.default.createElement(
                             _reactBootstrap.NavItem,
-                            { className: 'nav', eventKey: 4, href: '/home#skills', onClick: function onClick() {
-                                    _this2.routeTo();
-                                } },
-                            'SKILLS'
-                        ),
-                        _react2.default.createElement(
-                            _reactBootstrap.NavItem,
                             { className: 'nav', eventKey: 3, onClick: function onClick() {
                                     _this2.routeTo();
                                 }, href: '/home#portfolio' },
@@ -21853,7 +21848,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'wiw-pic1',
                     secondPicId: 'wiw-pic2',
                     firstP: 'This is a game designed to test your knowledge of geographical locations and landmarks throughout the world using street views and maps from the Google Maps API. This was a solo project.',
-                    secondP: 'Created with JavaScript (ES6), Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap, Webpack, Babel, AJAX, and the Google Maps API.',
+                    secondP: 'Created with JavaScript, Node, Express, React, Redux, PostgreSQL, Sequelize, HTML, CSS, Bootstrap, and the Google Maps API.',
                     firstLink: 'https://where-in-world.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Where-in-the-World',
                     class1: 'left project-section',
@@ -21864,7 +21859,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'nyu-pic1',
                     secondPicId: 'nyu-pic2',
                     firstP: 'Try to build the biggest city with this group project that reimagined the card game Machi Koro as a web application. Play up to three friends over the internet with this real-time, multiplayer game.',
-                    secondP: 'Created with JavaScript (ES6), Node, Express, React, Redux, PostgreSQL, Sequelize, Firebase, HTML, SCSS, Bootstrap, Webpack, Babel, and AJAX. Tests written in Mocha.',
+                    secondP: 'Created with JavaScript, Node, Express, React, Redux, PostgreSQL, Sequelize, Firebase, HTML, SCSS, and Bootstrap. Tests written in Mocha.',
                     firstLink: 'http://nyuyoku.herokuapp.com',
                     secondLink: 'https://github.com/nyuyoku',
                     class1: 'right project-section',
@@ -21875,7 +21870,7 @@ var MyNavbar = function (_React$Component) {
                     firstPicId: 'r-pic1',
                     secondPicId: 'r-pic2',
                     firstP: 'This project is a recreation of the classic card game Rummy. It features an AI player to play against, a hand of cards that can be dragged and sorted, and a scoreboard that keeps track of multiple rounds. This was a solo project.',
-                    secondP: 'Created with JavaScript (ES6), Node, Express, React, HTML, CSS, Bootstrap, Webpack, Babel.',
+                    secondP: 'Created with JavaScript, Node, Express, React, HTML, CSS, and Bootstrap.',
                     firstLink: 'https://gametown.herokuapp.com',
                     secondLink: 'https://github.com/SCFlanagan/Rummy',
                     class1: 'left project-section',
@@ -22124,11 +22119,6 @@ var MyNavbar = function (_React$Component) {
                     _react2.default.createElement(
                         'h5',
                         { className: 'tech' },
-                        'AJAX'
-                    ),
-                    _react2.default.createElement(
-                        'h5',
-                        { className: 'tech' },
                         'Babel'
                     )
                 ),
@@ -22169,7 +22159,7 @@ var MyNavbar = function (_React$Component) {
                     _react2.default.createElement(
                         'h5',
                         { className: 'tech' },
-                        'JSON'
+                        'Photoshop'
                     )
                 )
             );
