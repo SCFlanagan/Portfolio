@@ -52,13 +52,14 @@ body {
 }
 
 #top {
-    background-image: url('https://images.pexels.com/photos/28878/pexels-photo-28878.jpg?w=940&h=650&auto=compress&cs=tinysrgb');
+    background-image: url('./pictures/headerpic.jpeg');
     background-size: cover;
     background-position: center;
 }
 
 .header-content {
-    margin: 35vh auto;
+    margin: 40vh auto;
+    text-shadow: 0.8px 0.8px black;
 }
 
 .header-content h2{
